@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voons lil project :3</title>
+  <link rel="stylesheet" href="css/conditions.css">
+  <link rel="icon" href="images/carhart.png">
+
+</head>
+
+<style>
+  .blue-stripe{
+    background-image: url("{%static 'img/skyline6.avif' %}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-position: 50% 44%;
+  }
+</style>
+
+
+
+<body>
+
+  
+
+    <!--! Outer most container -->
+    <div class="container-fluid px-0 min-vh-100">
+ 
+        <!--! Sticky Stripes  -->
+        <div class="header outerHeader sticky-top">
+            <!-- Blue Stripe  -->
+
+            <div class="row px-4 mx-auto blue-stripe">
+
+              <div class="col-12 px-0 pittLogo-container">
+                <!-- <img src="{% static 'img/PittLogo1.png' %}" class="pitt-logo h-100 img-fluid" alt="University of Pittsburgh"> -->
+                 <img src="images/oars.png" class="h-100 img-fluid">
+              </div>
+               
+
+            </div>
+            <!-- Yellow Stripe -->
+            <div class="row px-5 mx-auto yellow-stripe">
+              <div class="site-title w-100 text-center">
+                <h1>
+                  University of Pittsburgh Rowing Club
+                </h1>
+               </div>
+            </div>
+
+            <!-- Third Stripe -->
+             <div class="row d-flex align-items-center px-4 mx-auto extra-stripe">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container nav-container">
+                  <div class="collapse mx-auto navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+                      <li class="nav-item px-2">
+                        <a class="nav-link " aria-current="page" href="main.html">Home</a>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link" href="schedule.html">Schedule</a>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Recruiting</a>
+                      </li>
+                      <li class="nav-item px-2 dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Rosters
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="VmenRoster.html">Varsity Men</a></li>
+                          <li><a class="dropdown-item" href="VwomenRoster.html">Varsity Women</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="NmenRoster.html">Novice Men</a></li>
+                          <li><a class="dropdown-item" href="NwomenRoster.html">Novice Women</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="active nav-link" href="conditions.html">Conditions</a>
+                      </li>
+                      <li class="nav-item px-2 dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About Us
+                        </a>
+                        <ul class=" dropdown-menu">
+                          <li><a class="dropdown-item" href="aboutUs.html">Team</a></li>
+                          <li><a class="dropdown-item" href="coaches.html">Coaches</a></li>
+                          <li><a class="dropdown-item" href="facilities.html">Facilities</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link" href="https://securelb.imodules.com/s/1729/18/form-giving.aspx?appealcode=2400STUROW&bledit=1&cid=1615&dids=17061&gid=2&pgid=785&sid=1729&sort=1" target="_blank">Donate</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+             </div>
+        </div>
+
+
+
+        <!--! Content Container -->
+        <!-- container using padding to add some margin on the side of the screen-->
+        <div class="container-fluid px-5 mx-auto mt-5 content-container">
+            
+
+
+
+          <!-- !                 READ PLEASE!                  -->
+          <!-- ! everything below here is going to be variable -->
+
+            <iframe src="https://maxgarber.github.io/projects/web/riverconditions/index.html" width="100%" height="1000px" style="border:none;"></iframe>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

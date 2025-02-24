@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(255, 255, 240);
+    font-family: minerva;
+}
+
+.outerHeader{
+    z-index: 2;
+}
+
+@font-face {
+    font-family: minerva;
+    src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
+/*! --------- Stripes --------- */
+.blue-stripe {
+    /* border: 2px solid red; */
+    background-color: #003594;
+    /* margin-left: 6rem; */
+    width: 100vw;
+    height: 7.5vh;
+}
+
+.pittLogo-container{
+    height: 130%;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pitt-logo{
+    padding-left: 15%;
+}
+
+.yellow-stripe{
+    /* border: 2px solid blue; */
+    /* background-color: #003594; */
+    background-color: #FFB81C;
+    width: 100vw;
+    height: 7.5vh;
+    display: flex;
+    align-content: center;
+}
+
+.extra-stripe{
+    /* border: 2px solid orange; */
+
+    background-color: #FFF5E1; 
+    height: 6vh;
+    width: 100vw;
+}
+
+.site-title{
+    font-size: 2.5rem;
+    color: #003594;
+}
+
+
+/*! --------- Page Content --------- */
+.content-container{
+    height: 74vh;
+}
+
+.outer-row{
+    /* border: 2px solid purple; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 100%;
+    width: 100%;
+}
+
+.top-stack{
+    /* border: 2px solid red; */
+}
+
+.bottom-stack{
+    /* border: 2px solid orange; */
+    background-color: #DBEEFF;
+}
+
+.left-container{
+    height: 130%;
+}
+
+
+.card-holder{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.card-img{
+    /* border: 2px solid orange; */
+    /* height: 20% !important; */
+    aspect-ratio:  1 / 1;
+    object-fit: cover;
+}
+
+.athlete-img{
+    /* border: 2px solid black; */
+    margin-left: 2.5rem; 
+    object-fit: cover;
+}
+
+.athlete-info{
+    /* border: 2px solid black; */
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    overflow-y: scroll;
+
+}
+
+.bio-name{
+    background-color: #FFB81C;
+    height: 20%;
+    width: 100%;
+    padding-left: 5% !important;
+}
+
+.bio-height{
+    margin-top: 2%;
+}
+
+.bio-height, .bio-college, .bio-year, .bio-major, .bio-town{
+    border-bottom: solid 1px grey; width: 40%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
+.horizontal{
+    object-fit: cover;
+    object-position: bottom center;
+}

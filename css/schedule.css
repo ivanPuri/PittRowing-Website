@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(255, 255, 240);
+    font-family: minerva;
+}
+
+.outerHeader{
+    z-index: 2;
+}
+
+@font-face {
+    font-family: minerva;
+    src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
+
+/*! --------- Stripes --------- */
+.blue-stripe {
+    /* border: 2px solid red; */
+    background-color: #003594;
+    /* margin-left: 6rem; */
+    width: 100vw;
+    height: 7.5vh;
+}
+
+.pittLogo-container{
+    height: 130%;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pitt-logo{
+    padding-left: 15%;
+}
+
+.yellow-stripe{
+    /* border: 2px solid blue; */
+    /* background-color: #003594; */
+    background-color: #FFB81C;
+    width: 100vw;
+    height: 7.5vh;
+    display: flex;
+    align-content: center;
+}
+
+.extra-stripe{
+    /* border: 2px solid orange; */
+
+    background-color: #FFF5E1; 
+    height: 6vh;
+    width: 100vw;
+}
+
+.site-title{
+    font-size: 2.5rem;
+    color: #003594;
+}
+
+.page-foot{
+    background-color: #003594;
+    height: 15vh;
+
+}
+
+/*! --------- Page Content --------- */
+.content-container{
+    height: 74vh;
+}
+
+.outer-row{
+    /* border: 2px solid purple; */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-container{
+    /* border: 2px solid black; */
+    background-color: rgb(20, 27, 77);
+}
+
+.side-img-container{
+    border-left: 2px solid rgb(20, 27, 77);
+    background-color: rgb(20, 27, 77);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 6rem;
+}
+
+.side-img-container img{
+    object-fit: cover;
+    padding:4rem;
+}
+
+.white-stripe{
+    height: 6vw;
+    background-color: #F7911E;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+}
+
+.info-col{
+    margin-top: 6rem;
+}
+
+.hoto, .charles, .schuykill,
+.occoquan, .indoors, .knecht,
+.acras, .dad-vails{
+    border-bottom:2px solid #F7911E; width: 60%;
+}
+
+.race-header{
+    color: #FFB81C;
+}
+
+.race-date{
+    color: white;
+}
+
+/* .donate-btn{
+    margin-right: 6rem !important;
+} */
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+

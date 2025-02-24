@@ -1,0 +1,106 @@
+[
+    {
+        "face" : "img/athlete images/horton.jpeg",
+        "name" : "HOLDEN GENT",
+        "height" : "6'3",
+        "college" : "Computing & Information",
+        "year" : "Junior",
+        "major" : "Computer Science",
+        "town" : "Pittsburgh, Pa"
+    },
+    {
+        "face" : "img/athlete images/rory.jpeg",
+        "name" : "RORY MCCANN",
+        "height" : "6'2",
+        "college" : "Computing & Information",
+        "year" : "Junior",
+        "major" : "Comptuer Science",
+        "town" : "Pittsburgh, Pa"
+    },
+    {
+        "face" : "img/athlete images/voon.jpg",
+        "name" : "IVAN PURI",
+        "height" : "6'0",
+        "college" : "Dietrich A & S",
+        "year" : "Junior",
+        "major" : "Computational Biology",
+        "town" : "West Chester, Pa"
+    },
+    {
+        "face" : "img/athlete images/nils.jpg",
+        "name" : "NILS HOLMAN",
+        "height" : "6'3",
+        "college" : "Dietrich A & S",
+        "year" : "Junior",
+        "major" : "Computer Science",
+        "town" : "Summit, Nj"
+    },
+    {
+        "face" : "img/athlete images/eesa.jpg",
+        "name" : "EESA NOAMAN",
+        "height" : "5'10",
+        "college" : "Dietrich A & S",
+        "year" : "Junior",
+        "major" : "Molecular Biology",
+        "town" : "Pittsburgh, Pa"
+
+    },
+    {
+        "face" : "img/athlete images/joe.jpg",
+        "name" : "JOE LOESNER",
+        "height" : "5'10",
+        "college" : "College of Business Administration",
+        "year" : "Senior",
+        "major" : "Supply Chain Management and Marketing",
+        "town" : "Cherry Hill, NJ"
+    },
+    {
+        "face" : "img/athlete images/william.jpg",
+        "name" : "WILLIAM SAVAGE",
+        "height" : "6'4",
+        "college" : "Dietrich A&S",
+        "year" : "Senior",
+        "major" : "French",
+        "town" : "Wilmington, DE"
+
+    },
+    {
+        "face" : "img/athlete images/ryan.jpg",
+        "name" : "RYAN VIDAL",
+        "height" : "5'11",
+        "college" : "University of Pittsburgh Swanson School of Engineering",
+        "year" : "Senior",
+        "major" : "Engr Simulation in Design",
+        "town" : "Lancaster, PA"
+
+    },
+    {
+        "face" : "img/athlete images/OP.jpg",
+        "name" : "OWEN POWELL",
+        "height" : "6'3",
+        "college" : "Dietrich A&S",
+        "year" : "Senior",
+        "major" : "Psychology",
+        "town" : "Summit, Nj"
+
+    },
+    {
+        "face" : "img/athlete images/avni.jpg",
+        "name" : "AVNI PRABHU",
+        "height" : "5'3",
+        "college" : "Dietrich A&S",
+        "year" : "Junior",
+        "major" : "Molecular Biology and Economics ",
+        "town" : "Avon, CT and Bangalore, KA, India"
+
+    },
+    {
+        "face" : "img/athlete images/owen.jpeg",
+        "name" : "OWEN AHEARN",
+        "height" : "6’0",
+        "college" : "School of Computing and Information",
+        "year" : "Senior",
+        "major" : "Computer Science",
+        "town" : "Shrewsbury, MA"
+    }
+]

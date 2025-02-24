@@ -1,0 +1,93 @@
+[
+    {
+        "face" : "img/athlete images/kyu.jpg",
+        "name" : "KYU",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+    {
+        "face" : "img/athlete images/ben.jpg",
+        "name" : "BEN",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+    {
+        "face" : "img/athlete images/david.jpg",
+        "name" : "DAVID",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+    {
+        "face" : "img/athlete images/gravy.jpg",
+        "name" : "GRAVY FOST",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+    {
+        "face" : "img/athlete images/andrew.jpg",
+        "name" : "ANDREW",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "JEREMY",
+        "height" : "6'0",
+        "college" : "Swanson",
+        "year" : "Senior",
+        "major" : "Electrical Engineering",
+        "town" : "wc"
+    },
+  
+    {
+        "face" : "img/athlete images/",
+        "name" : "SHAWN PARRA",
+        "height" : "5’6”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Undeclared",
+        "town" : "New Castle, PA"
+    },
+    {
+        "face" : "img/athlete images/grant.jpg",
+        "name" : "GRANT FRITZ",
+        "height" : "5'11",
+        "college" : "Dietrich A&S",
+        "year" : "Sophomore",
+        "major" : "Political Science and Economics",
+        "town" : "Kensington, MD"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "NICHOLAS SAWICKI ",
+        "height" : "5'11",
+        "college" : "Dietrich A&S",
+        "year" : "Senior",
+        "major" : "Biology ",
+        "town" : "Perkasie, PA"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "JAKE FULTON",
+        "height" : "5’11",
+        "college" : "Pitt School of Computing and Information",
+        "year" : "Freshman",
+        "major" : "Computer Science",
+        "town" : "Kent Island, MD"
+    }
+]

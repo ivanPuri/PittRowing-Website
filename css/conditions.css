@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 240);
+    font-family: minerva;
+}
+
+.outerHeader{
+    z-index: 2;
+}
+
+@font-face {
+    font-family: minerva;
+    src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
+/*! --------- Stripes --------- */
+.blue-stripe {
+    /* border: 2px solid red; */
+    background-color: #003594;
+    /* margin-left: 6rem; */
+    width: 100vw;
+    height: 7.5vh;
+}
+
+.pittLogo-container{
+    height: 130%;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pitt-logo{
+    padding-left: 15%;
+}
+
+.yellow-stripe{
+    /* border: 2px solid blue; */
+    /* background-color: #003594; */
+    background-color: #FFB81C;
+    width: 100vw;
+    height: 7.5vh;
+    display: flex;
+    align-content: center;
+}
+
+.extra-stripe{
+    /* border: 2px solid orange; */
+
+    background-color: #FFF5E1; 
+    height: 6vh;
+    width: 100vw;
+}
+
+.site-title{
+    font-size: 2.5rem;
+    color: #003594;
+}
+
+.page-foot{
+    background-color: #003594;
+    height: 15vh;
+
+}
+/*! --------- Page Content --------- */
+.content-container{
+    height: 74vh;
+}

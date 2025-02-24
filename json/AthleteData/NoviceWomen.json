@@ -1,0 +1,74 @@
+[
+    {
+        "face" : "img/athlete images/anna.jpg",
+        "name" : "ANABELLE HOPKINS",
+        "height" : "5'7",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Athletic Training",
+        "town" : "Seattle, WA"
+    },
+    {
+        "face" : "img/athlete images/lauren.jpg",
+        "name" : "LAUREN NEVILLE",
+        "height" : "5’9”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Biological Sciences",
+        "town" : "Columbus, Ohio"
+    },
+    {
+        "face" : "img/athlete images/katherine.jpg",
+        "name" : "KATHERINE",
+        "height" : "5'7",
+        "college" : "Swanson",
+        "year" : "Junior",
+        "major" : "Seattle, WA",
+        "town" : "Seattle, WA"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "ALINA SNOPKOWSKI",
+        "height" : "5'8",
+        "college" : "Post Grad",
+        "year" : "N/A",
+        "major" : "Public and International Affairs",
+        "town" : "Oxford PA"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "MEGAN MULHURN",
+        "height" : "5’3”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Neuroscience",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "JILLIAN THOMAS",
+        "height" : "5’4”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Biology & Neuroscience",
+        "town" : "Swarthmore, PA"
+    },
+    {
+        "face" : "img/athlete images/allief.jpg",
+        "name" : "ALEXANDRIA FRANCK",
+        "height" : "5’8”",
+        "college" : "School of Nursing",
+        "year" : "Frehsman",
+        "major" : "Global Nursing",
+        "town" : "Chalfont, PA"
+    },
+    {
+        "face" : "img/athlete images/",
+        "name" : "ELLIE KRUMM",
+        "height" : "5’4",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Microbiology",
+        "town" : "Philadephia, PA"
+    }
+]

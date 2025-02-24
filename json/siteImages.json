@@ -1,0 +1,32 @@
+[
+    {
+        "carousel": "carousel-images/Chinese_Dragon copy.webp",
+        "news": "Image news 0",
+        "date": "0",
+        "description": "Description for image 0@"
+    },
+    {
+        "carousel": "carousel-images/DragonReference copy.jpeg",
+        "news": "Image news 1",
+        "date": "1",
+        "description": "Description for image 1#"
+    },
+    {
+        "carousel": "carousel-images/flowerreference copy.jpeg",
+        "news": "Image news 2",
+        "date": "2",
+        "description": "Description for image 2$"
+    },
+    {
+        "carousel": "carousel-images/flowerreference copy.jpeg",
+        "news": "Image news 3",
+        "date": "3",
+        "description": "Description for image 3%"
+    },
+    {
+        "carousel": "img/carhart.png",
+        "news": "eat shit",
+        "date": "3",
+        "description": "Description for image 3%"
+    }
+]
