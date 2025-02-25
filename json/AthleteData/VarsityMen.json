@@ -27,7 +27,7 @@
         "town" : "West Chester, Pa"
     },
     {
-        "face" : "images/athlete images/nils.jpg",
+        "face" : "images/athlete images/nils.JPG",
         "name" : "NILS HOLMAN",
         "height" : "6'3",
         "college" : "Dietrich A & S",
@@ -36,7 +36,7 @@
         "town" : "Summit, Nj"
     },
     {
-        "face" : "images/athlete images/eesa.jpg",
+        "face" : "images/athlete images/eesa.JPG",
         "name" : "EESA NOAMAN",
         "height" : "5'10",
         "college" : "Dietrich A & S",
@@ -46,7 +46,7 @@
 
     },
     {
-        "face" : "images/athlete images/joe.jpg",
+        "face" : "images/athlete images/joe.JPG",
         "name" : "JOE LOESNER",
         "height" : "5'10",
         "college" : "College of Business Administration",
@@ -55,7 +55,7 @@
         "town" : "Cherry Hill, NJ"
     },
     {
-        "face" : "images/athlete images/william.jpg",
+        "face" : "images/athlete images/william.JPG",
         "name" : "WILLIAM SAVAGE",
         "height" : "6'4",
         "college" : "Dietrich A&S",
@@ -65,7 +65,7 @@
 
     },
     {
-        "face" : "images/athlete images/ryan.jpg",
+        "face" : "images/athlete images/ryan.JPG",
         "name" : "RYAN VIDAL",
         "height" : "5'11",
         "college" : "University of Pittsburgh Swanson School of Engineering",
@@ -75,7 +75,7 @@
 
     },
     {
-        "face" : "images/athlete images/OP.jpg",
+        "face" : "images/athlete images/OP.JPG",
         "name" : "OWEN POWELL",
         "height" : "6'3",
         "college" : "Dietrich A&S",
@@ -85,7 +85,7 @@
 
     },
     {
-        "face" : "images/athlete images/avni.jpg",
+        "face" : "images/athlete images/avni.JPG",
         "name" : "AVNI PRABHU",
         "height" : "5'3",
         "college" : "Dietrich A&S",
@@ -95,7 +95,7 @@
 
     },
     {
-        "face" : "images/athlete images/owen.jpeg",
+        "face" : "images/athlete images/owen.JPEG",
         "name" : "OWEN AHEARN",
         "height" : "6’0",
         "college" : "School of Computing and Information",
