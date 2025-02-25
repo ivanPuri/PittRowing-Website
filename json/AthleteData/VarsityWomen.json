@@ -1,6 +1,6 @@
 [
     {
-        "face" : "img/athlete images/allie.jpg",
+        "face" : "images/athlete images/allie.jpg",
         "name" : "ALLIE NEIDERT",
         "height" : "",
         "college" : "Dietrich A&S",
@@ -9,7 +9,7 @@
         "town" : ""
     },
     {
-        "face" : "img/athlete images/abbatron.jpg",
+        "face" : "images/athlete images/abbatron.jpg",
         "name" : "ABBY BAKKENIST",
         "height" : "5’10”",
         "college" : "Dietrich A&S",
@@ -19,7 +19,7 @@
         
     },
     {
-        "face" : "img/athlete images/myah.jpg",
+        "face" : "images/athlete images/myah.jpg",
         "name" : "MYAH DANNER",
         "height" : "5' 4",
         "college" : "Dietrich A&S",
@@ -29,7 +29,7 @@
         
     },
     {
-        "face" : "img/athlete images/eliza.jpg",
+        "face" : "images/athlete images/eliza.jpg",
         "name" : "ELIZA CALLAHAN",
         "height" : "5'3",
         "college" : "Dietrich A&S",
@@ -38,7 +38,7 @@
         "town" : "Milton, Ma"
     },
     {
-        "face" : "img/athlete images/robin.jpg",
+        "face" : "images/athlete images/robin.jpg",
         "name" : "ROBIN HIGGINS",
         "height" : "5’2”",
         "college" : "Dietrich A&S",
@@ -47,7 +47,7 @@
         "town" : "Media, Pa"
     },
     {
-        "face" : "img/athlete images/carina.jpg",
+        "face" : "images/athlete images/carina.jpg",
         "name" : "CARINA ROSE",
         "height" : "",
         "college" : "Swanson",
@@ -56,7 +56,7 @@
         "town" : "Pheonixville, PA"
     },
     {
-        "face" : "img/athlete images/sara.jpg",
+        "face" : "images/athlete images/sara.jpg",
         "name" : "SARA ROUIZEM",
         "height" : "5’5",
         "college" : "College of Business Administration",
@@ -65,7 +65,7 @@
         "town" : "Kennett Square, PA"
     },
     {
-        "face" : "img/athlete images/emma.jpg",
+        "face" : "images/athlete images/emma.jpg",
         "name" : "EMMA KLECKNER",
         "height" : "6'0",
         "college" : "Dietrich A&S",
@@ -74,7 +74,7 @@
         "town" : "West Chester, PA"
     },
     {
-        "face" : "img/athlete images/evyn.jpg",
+        "face" : "images/athlete images/evyn.jpg",
         "name" : "EVYN DOWD",
         "height" : "5'6",
         "college" : "Dietrich A&S",
@@ -83,7 +83,7 @@
         "town" : "Pittsburgh, PA"
     },
     {
-        "face" : "img/athlete images/gwen.jpg",
+        "face" : "images/athlete images/gwen.jpg",
         "name" : "GWENYTH DYMEK",
         "height" : "",
         "college" : "Dietrich A&S",
@@ -92,7 +92,7 @@
         "town" : "wc"
     },
     {
-        "face" : "img/athlete images/alexis.jpg",
+        "face" : "images/athlete images/alexis.jpg",
         "name" : "ALEXIS GRAY",
         "height" : "5’10”",
         "college" : "School of Education",
@@ -101,7 +101,7 @@
         "town" : "Chester, NY"
     },
     {
-        "face" : "img/athlete images/ABBYT.JPG",
+        "face" : "images/athlete images/ABBYT.JPG",
         "name" : "ABBY TOTH",
         "height" : "6'0",
         "college" : "School of Nursing ",
@@ -110,7 +110,7 @@
         "town" : "Leesburg, VA"
     },
     {
-        "face" : "img/athlete images/camille.jpg",
+        "face" : "images/athlete images/camille.jpg",
         "name" : "CAMILLE SCORDIS",
         "height" : "5'7",
         "college" : "Dietrich A&S",
@@ -119,7 +119,7 @@
         "town" : "Lawrence, NJ"
     },
     {
-        "face" : "img/athlete images/juliaM.jpg",
+        "face" : "images/athlete images/juliaM.jpg",
         "name" : "JULIA MOLLEN",
         "height" : "",
         "college" : "Frederick Honours",
@@ -128,7 +128,7 @@
         "town" : "Pittsburgh, Pa"
     },
     {
-        "face" : "img/athlete images/tessa.jpg",
+        "face" : "images/athlete images/tessa.jpg",
         "name" : "TESSA POWERS",
         "height" : "6'0",
         "college" : "Dietrich A&S",
@@ -137,7 +137,7 @@
         "town" : "wc"
     },
     {
-        "face" : "img/athlete images/helena.jpg",
+        "face" : "images/athlete images/helena.jpg",
         "name" : "HELENA ORTH",
         "height" : "6'0",
         "college" : "Dietrich A&S",
@@ -146,7 +146,7 @@
         "town" : "Hingham, Ma"
     },
     {
-        "face" : "img/athlete images/cam.jpg",
+        "face" : "images/athlete images/cam.jpg",
         "name" : "CAMERAN THOMPSON",
         "height" : "5’4”",
         "college" : "Frederick Honours",
@@ -155,7 +155,7 @@
         "town" : "Murrysville, Pa"
     },
     {
-        "face" : "img/athlete images/cam.jpg",
+        "face" : "images/athlete images/cam.jpg",
         "name" : "ELLIE ROBERTS",
         "height" : "5'5",
         "college" : "Swanson School of Engineering",

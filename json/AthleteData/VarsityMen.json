@@ -1,6 +1,6 @@
 [
     {
-        "face" : "img/athlete images/horton.jpeg",
+        "face" : "images/athlete images/horton.jpeg",
         "name" : "HOLDEN GENT",
         "height" : "6'3",
         "college" : "Computing & Information",
@@ -9,7 +9,7 @@
         "town" : "Pittsburgh, Pa"
     },
     {
-        "face" : "img/athlete images/rory.jpeg",
+        "face" : "images/athlete images/rory.jpeg",
         "name" : "RORY MCCANN",
         "height" : "6'2",
         "college" : "Computing & Information",
@@ -18,7 +18,7 @@
         "town" : "Pittsburgh, Pa"
     },
     {
-        "face" : "img/athlete images/voon.jpg",
+        "face" : "images/athlete images/voon.jpg",
         "name" : "IVAN PURI",
         "height" : "6'0",
         "college" : "Dietrich A & S",
@@ -27,7 +27,7 @@
         "town" : "West Chester, Pa"
     },
     {
-        "face" : "img/athlete images/nils.jpg",
+        "face" : "images/athlete images/nils.jpg",
         "name" : "NILS HOLMAN",
         "height" : "6'3",
         "college" : "Dietrich A & S",
@@ -36,7 +36,7 @@
         "town" : "Summit, Nj"
     },
     {
-        "face" : "img/athlete images/eesa.jpg",
+        "face" : "images/athlete images/eesa.jpg",
         "name" : "EESA NOAMAN",
         "height" : "5'10",
         "college" : "Dietrich A & S",
@@ -46,7 +46,7 @@
 
     },
     {
-        "face" : "img/athlete images/joe.jpg",
+        "face" : "images/athlete images/joe.jpg",
         "name" : "JOE LOESNER",
         "height" : "5'10",
         "college" : "College of Business Administration",
@@ -55,7 +55,7 @@
         "town" : "Cherry Hill, NJ"
     },
     {
-        "face" : "img/athlete images/william.jpg",
+        "face" : "images/athlete images/william.jpg",
         "name" : "WILLIAM SAVAGE",
         "height" : "6'4",
         "college" : "Dietrich A&S",
@@ -65,7 +65,7 @@
 
     },
     {
-        "face" : "img/athlete images/ryan.jpg",
+        "face" : "images/athlete images/ryan.jpg",
         "name" : "RYAN VIDAL",
         "height" : "5'11",
         "college" : "University of Pittsburgh Swanson School of Engineering",
@@ -75,7 +75,7 @@
 
     },
     {
-        "face" : "img/athlete images/OP.jpg",
+        "face" : "images/athlete images/OP.jpg",
         "name" : "OWEN POWELL",
         "height" : "6'3",
         "college" : "Dietrich A&S",
@@ -85,7 +85,7 @@
 
     },
     {
-        "face" : "img/athlete images/avni.jpg",
+        "face" : "images/athlete images/avni.jpg",
         "name" : "AVNI PRABHU",
         "height" : "5'3",
         "college" : "Dietrich A&S",
@@ -95,7 +95,7 @@
 
     },
     {
-        "face" : "img/athlete images/owen.jpeg",
+        "face" : "images/athlete images/owen.jpeg",
         "name" : "OWEN AHEARN",
         "height" : "6’0",
         "college" : "School of Computing and Information",

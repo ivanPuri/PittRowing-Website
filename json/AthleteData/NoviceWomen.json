@@ -1,6 +1,6 @@
 [
     {
-        "face" : "img/athlete images/anna.jpg",
+        "face" : "images/athlete images/anna.jpg",
         "name" : "ANABELLE HOPKINS",
         "height" : "5'7",
         "college" : "Dietrich A&S",
@@ -9,7 +9,7 @@
         "town" : "Seattle, WA"
     },
     {
-        "face" : "img/athlete images/lauren.jpg",
+        "face" : "images/athlete images/lauren.jpg",
         "name" : "LAUREN NEVILLE",
         "height" : "5’9”",
         "college" : "Dietrich A&S",
@@ -18,7 +18,7 @@
         "town" : "Columbus, Ohio"
     },
     {
-        "face" : "img/athlete images/katherine.jpg",
+        "face" : "images/athlete images/katherine.jpg",
         "name" : "KATHERINE",
         "height" : "5'7",
         "college" : "Swanson",
@@ -27,7 +27,7 @@
         "town" : "Seattle, WA"
     },
     {
-        "face" : "img/athlete images/",
+        "face" : "images/athlete images/",
         "name" : "ALINA SNOPKOWSKI",
         "height" : "5'8",
         "college" : "Post Grad",
@@ -36,7 +36,7 @@
         "town" : "Oxford PA"
     },
     {
-        "face" : "img/athlete images/",
+        "face" : "images/athlete images/",
         "name" : "MEGAN MULHURN",
         "height" : "5’3”",
         "college" : "Dietrich A&S",
@@ -45,7 +45,7 @@
         "town" : "Pittsburgh, PA"
     },
     {
-        "face" : "img/athlete images/",
+        "face" : "images/athlete images/",
         "name" : "JILLIAN THOMAS",
         "height" : "5’4”",
         "college" : "Dietrich A&S",
@@ -54,7 +54,7 @@
         "town" : "Swarthmore, PA"
     },
     {
-        "face" : "img/athlete images/allief.jpg",
+        "face" : "images/athlete images/allief.jpg",
         "name" : "ALEXANDRIA FRANCK",
         "height" : "5’8”",
         "college" : "School of Nursing",
@@ -63,7 +63,7 @@
         "town" : "Chalfont, PA"
     },
     {
-        "face" : "img/athlete images/",
+        "face" : "images/athlete images/",
         "name" : "ELLIE KRUMM",
         "height" : "5’4",
         "college" : "Dietrich A&S",
