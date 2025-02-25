@@ -1,6 +1,6 @@
 [
     {
-        "face" : "images/athlete images/kyu.jpg",
+        "face" : "images/athlete images/kyu.JPG",
         "name" : "KYU",
         "height" : "6'0",
         "college" : "Swanson",
@@ -9,7 +9,7 @@
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images/ben.jpg",
+        "face" : "images/athlete images/ben.JPG",
         "name" : "BEN",
         "height" : "6'0",
         "college" : "Swanson",
@@ -18,7 +18,7 @@
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images/david.jpg",
+        "face" : "images/athlete images/david.JPG",
         "name" : "DAVID",
         "height" : "6'0",
         "college" : "Swanson",
@@ -27,7 +27,7 @@
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images/gravy.jpg",
+        "face" : "images/athlete images/gravy.JPG",
         "name" : "GRAVY FOST",
         "height" : "6'0",
         "college" : "Swanson",
@@ -36,7 +36,7 @@
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images/andrew.jpg",
+        "face" : "images/athlete images/andrew.JPG",
         "name" : "ANDREW",
         "height" : "6'0",
         "college" : "Swanson",
@@ -64,7 +64,7 @@
         "town" : "New Castle, PA"
     },
     {
-        "face" : "images/athlete images/grant.jpg",
+        "face" : "images/athlete images/grant.JPG",
         "name" : "GRANT FRITZ",
         "height" : "5'11",
         "college" : "Dietrich A&S",

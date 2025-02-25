@@ -1,6 +1,6 @@
 [
     {
-        "face" : "images/athlete images/anna.jpg",
+        "face" : "images/athlete images/anna.JPG",
         "name" : "ANABELLE HOPKINS",
         "height" : "5'7",
         "college" : "Dietrich A&S",
@@ -9,7 +9,7 @@
         "town" : "Seattle, WA"
     },
     {
-        "face" : "images/athlete images/lauren.jpg",
+        "face" : "images/athlete images/lauren.JPG",
         "name" : "LAUREN NEVILLE",
         "height" : "5’9”",
         "college" : "Dietrich A&S",
@@ -18,7 +18,7 @@
         "town" : "Columbus, Ohio"
     },
     {
-        "face" : "images/athlete images/katherine.jpg",
+        "face" : "images/athlete images/katherine.JPG",
         "name" : "KATHERINE",
         "height" : "5'7",
         "college" : "Swanson",
@@ -54,7 +54,7 @@
         "town" : "Swarthmore, PA"
     },
     {
-        "face" : "images/athlete images/allief.jpg",
+        "face" : "images/athlete images/allief.JPG",
         "name" : "ALEXANDRIA FRANCK",
         "height" : "5’8”",
         "college" : "School of Nursing",
