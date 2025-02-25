@@ -12,9 +12,9 @@ async function fetchData() {
 }
 
 //! Making it static for django
-function getStaticPath(path) {
-    return `/static/${path}`;
-}
+// function getStaticPath(path) {
+//     return `/static/${path}`;
+// }
 
 // !selecting and filling card container div
 const cardDivContainer = document.getElementById('card-holder');
