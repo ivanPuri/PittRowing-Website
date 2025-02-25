@@ -2,7 +2,7 @@
 async function fetchData() {
     try {
         // getting the json file data
-        const response = await fetch('/static/json/AthleteData/VarsityMen.json'); 
+        const response = await fetch('json/AthleteData/VarsityMen.json'); 
         const jsonData = await response.json()  
         // console.log('ape');
         return jsonData
@@ -73,7 +73,7 @@ function updatePage(name, jsonData){
             athleteYear.textContent = "Year : " + dict.year;
             athleteMajor.textContent = "Major : " + dict.major;
             athleteTown.textContent = "HomeTown : " + dict.town;
-            athleteFace.src = getStaticPath(dict.face);
+            athleteFace.src = (dict.face);
         }
     });
 }

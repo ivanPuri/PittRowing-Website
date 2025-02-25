@@ -2,7 +2,7 @@
 async function fetchData() {
     try {
         // getting the json file data
-        const response = await fetch('/static/json/AthleteData/VarsityWomen.json'); 
+        const response = await fetch('json/AthleteData/VarsityWomen.json'); 
         const jsonData = await response.json()  
         // console.log('ape');
         return jsonData
@@ -12,9 +12,9 @@ async function fetchData() {
 }
 
 //! Making it static for django
-function getStaticPath(path) {
-    return `/static/${path}`;
-}
+// function getStaticPath(path) {
+//     return `/static/${path}`;
+// }
 
 // !selecting card container div
 const cardDivContainer = document.getElementById('card-holder');
@@ -45,7 +45,7 @@ function loadpage(jsonData){
         //! Now the template is laid and injected into the list
 
         // Injecting HeadShots 
-        athleteImg.src = getStaticPath(dict.face);
+        athleteImg.src = (dict.face);
 
         // Injecting Name
         athleteName.textContent = dict.name;

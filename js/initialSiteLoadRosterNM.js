@@ -2,7 +2,7 @@
 async function fetchData() {
     try {
         // getting the json file data
-        const response = await fetch('/static/json/AthleteData/NoviceMen.json'); 
+        const response = await fetch('json/AthleteData/NoviceMen.json'); 
         const jsonData = await response.json()  
         // console.log('ape');
         return jsonData
@@ -45,7 +45,7 @@ function loadpage(jsonData){
         //! Now the template is laid and injected into the list
 
         // Injecting HeadShots 
-        athleteImg.src = getStaticPath(dict.face);
+        athleteImg.src = (dict.face);
 
         // Injecting Name
         athleteName.textContent = dict.name;

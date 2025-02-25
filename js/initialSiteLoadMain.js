@@ -4,7 +4,7 @@
 async function fetchData() {
     try {
         // getting the json file data
-        const response = await fetch('/static/json/siteImages.json'); 
+        const response = await fetch('json/siteImages.json'); 
         const jsonData = await response.json()  
         // console.log(typeof jsonData);
         return jsonData
@@ -71,7 +71,7 @@ function fillPage(jsonData) {
         
         
         // Static wrapping for django 
-        img.src = getStaticPath(dict.carousel); 
+        img.src = (dict.carousel); 
 
         // image carousel formatting
         img.classList.add('d-block', 'w-100', 'img-fluid');
