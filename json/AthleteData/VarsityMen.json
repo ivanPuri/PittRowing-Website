@@ -27,7 +27,7 @@
         "town" : "West Chester, Pa"
     },
     {
-        "face" : "images/athlete images/nils.JPG",
+        "face" : "images/athlete images/nils.jpg",
         "name" : "NILS HOLMAN",
         "height" : "6'3",
         "college" : "Dietrich A & S",
@@ -36,7 +36,7 @@
         "town" : "Summit, Nj"
     },
     {
-        "face" : "images/athlete images/eesa.JPG",
+        "face" : "images/athlete images/eesa.jpg",
         "name" : "EESA NOAMAN",
         "height" : "5'10",
         "college" : "Dietrich A & S",
@@ -85,7 +85,7 @@
 
     },
     {
-        "face" : "images/athlete images/avni.JPG",
+        "face" : "images/athlete images/avni.jpg",
         "name" : "AVNI PRABHU",
         "height" : "5'3",
         "college" : "Dietrich A&S",
