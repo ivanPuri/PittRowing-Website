@@ -47,7 +47,7 @@ function loadpage(jsonData){
         //! Now the template is laid and injected into the list
 
         // Injecting HeadShots 
-        athleteImg.src = getStaticPath(dict.face);
+        athleteImg.src =(dict.face);
 
         // Injecting Name
         athleteName.textContent = dict.name;
