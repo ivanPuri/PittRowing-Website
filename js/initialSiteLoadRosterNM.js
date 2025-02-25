@@ -72,7 +72,7 @@ function updatePage(name, jsonData){
             athleteYear.textContent = "Year : " + dict.year;
             athleteMajor.textContent = "Major : " + dict.major;
             athleteTown.textContent = "HomeTown : " + dict.town;
-            athleteFace.src = getStaticPath(dict.face);
+            athleteFace.src = (dict.face);
 
         }
     });
