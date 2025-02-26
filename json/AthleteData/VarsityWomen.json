@@ -2,7 +2,7 @@
     {
         "face" : "images/athlete images/allie.JPG",
         "name" : "ALLIE NEIDERT",
-        "height" : "",
+        "height" : "5'6”",
         "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Psychology",
@@ -21,7 +21,7 @@
     {
         "face" : "images/athlete images/myah.JPG",
         "name" : "MYAH DANNER",
-        "height" : "5' 4",
+        "height" : "5'4”",
         "college" : "Dietrich A&S",
         "year" : "Senior",
         "major" : "Psychology",
@@ -31,7 +31,7 @@
     {
         "face" : "images/athlete images/eliza.jpg",
         "name" : "ELIZA CALLAHAN",
-        "height" : "5'3",
+        "height" : "5'3”",
         "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Computational Biology and French",
@@ -58,7 +58,7 @@
     {
         "face" : "images/athlete images/sara.jpg",
         "name" : "SARA ROUIZEM",
-        "height" : "5’5",
+        "height" : "5’5”",
         "college" : "College of Business Administration",
         "year" : "Junior",
         "major" : "Marketing and Global Management ",
@@ -67,7 +67,7 @@
     {
         "face" : "images/athlete images/emma.JPG",
         "name" : "EMMA KLECKNER",
-        "height" : "6'0",
+        "height" : "6'0”",
         "college" : "Dietrich A&S",
         "year" : "Senior",
         "major" : "Communication & Psychology",
@@ -76,7 +76,7 @@
     {
         "face" : "images/athlete images/evyn.JPG",
         "name" : "EVYN DOWD",
-        "height" : "5'6",
+        "height" : "5'6”",
         "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Environmental Science",
@@ -103,7 +103,7 @@
     {
         "face" : "images/athlete images/ABBYT.JPG",
         "name" : "ABBY TOTH",
-        "height" : "6'0",
+        "height" : "6'0”",
         "college" : "School of Nursing ",
         "year" : "Senior",
         "major" : "Global Nursing",
@@ -112,7 +112,7 @@
     {
         "face" : "images/athlete images/camille.jpg",
         "name" : "CAMILLE SCORDIS",
-        "height" : "5'7",
+        "height" : "5'7”",
         "college" : "Dietrich A&S",
         "year" : "Senior",
         "major" : "Psychology",
@@ -130,7 +130,7 @@
     {
         "face" : "images/athlete images/tessa.jpg",
         "name" : "TESSA POWERS",
-        "height" : "6'0",
+        "height" : "6'0”",
         "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Computer Science",
@@ -139,7 +139,7 @@
     {
         "face" : "images/athlete images/helena.JPG",
         "name" : "HELENA ORTH",
-        "height" : "6'0",
+        "height" : "6'0”",
         "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Biological Sciences",
@@ -155,9 +155,9 @@
         "town" : "Murrysville, Pa"
     },
     {
-        "face" : "images/athlete images/cam.JPG",
+        "face" : "images/athlete images/",
         "name" : "ELLIE ROBERTS",
-        "height" : "5'5",
+        "height" : "5'5”",
         "college" : "Swanson School of Engineering",
         "year" : "Senior",
         "major" : "Biomechanical Engineering",
