@@ -21,7 +21,7 @@
         "face" : "images/athlete images/voon.JPG",
         "name" : "IVAN PURI",
         "height" : "6'0",
-        "college" : "Dietrich A & S",
+        "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Computational Biology",
         "town" : "West Chester, PA"
@@ -30,16 +30,16 @@
         "face" : "images/athlete images/nils.jpg",
         "name" : "NILS HOLMAN",
         "height" : "6'3",
-        "college" : "Dietrich A & S",
-        "year" : "Junior",
-        "major" : "Computer Science",
+        "college" : "Dietrich A&S",
+        "year" : "Senior",
+        "major" : "Psychology",
         "town" : "Summit, NJ"
     },
     {
         "face" : "images/athlete images/eesa.jpg",
         "name" : "EESA NOAMAN",
         "height" : "5'10",
-        "college" : "Dietrich A & S",
+        "college" : "Dietrich A&S",
         "year" : "Junior",
         "major" : "Molecular Biology",
         "town" : "Pittsburgh, PA"
@@ -110,7 +110,7 @@
     "college" : "Swanson",
     "year" : "Junior",
     "major" : "Engineering",
-    "town" : "ho-ho-kus, NJ"
+    "town" : "Ho-Ho-kus, NJ"
     }  
 
 ]
