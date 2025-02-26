@@ -12,21 +12,21 @@
         "description": "Mens Collegiate Double: 1st in Open Category, 2nd Overall🥇, Women's Collegiate Double: 3rd in Open Category, 5th Overall🥉"
     },
     {
-        "carousel": "images/indoors.jpeg",
+        "carousel": "images/occ.jpeg",
         "news": "Head of the Occoquan",
         "date": "November 5th",
         "description": "Men's Collegiate JV 4+: 2nd🥈, Men's Collegiate Varsity 4+: 3rd🥉"
     },
     {
-        "carousel": "images/flowerreference copy.jpeg",
+        "carousel": "images/indoors.jpg",
         "news": "Pittsburgh Indoors",
         "date": "February 1st",
-        "description": "Description for image 3%"
+        "description": "Women's U23: 1st🥇, 2nd🥈Men's U23: 1st🥇, 2nd🥈, 3rd🥉 Women's U23 LWT: 1st🥇 Men's U23 LWT: 3rd🥉 Women's U23 Coxswain 500m: 1st🥇, 2nd🥈, 3rd🥉 Men's U23 Coxswain 500m: 1st🥇Mixed U23 6-Person Relay: 1st🥇, 3rd🥉"
     },
     {
-        "carousel": "img/carhart.png",
-        "news": "",
-        "date": "3",
-        "description": "Description for image 3%"
+        "carousel": "images/pdog.png",
+        "news": "Pitt Day of Giving",
+        "date": "February 25th",
+        "description": "Pitt Day of Giving is Pitt Crew's largest fundraiser of the year, $3,267,000 were raised this year"
     }
 ]
