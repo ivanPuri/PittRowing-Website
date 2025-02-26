@@ -96,11 +96,21 @@
     },
     {
         "face" : "images/athlete images/owen.JPG",
-        "name" : "OWEN AHEARN",
+        "name" : "OWEN AHERNE",
         "height" : "6’0",
         "college" : "School of Computing and Information",
         "year" : "Senior",
         "major" : "Computer Science",
         "town" : "Shrewsbury, MA"
-    }
+    },
+    {
+    "face" : "images/athlete images/",
+    "name" : "MATT HADDAD",
+    "height" : "5’8",
+    "college" : "Swanson",
+    "year" : "Junior",
+    "major" : "Engineering",
+    "town" : "ho-ho-kus, NJ"
+    }  
+
 ]
