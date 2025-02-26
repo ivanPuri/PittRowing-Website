@@ -1,7 +1,7 @@
 [
     {
         "face" : "images/athlete images/kyu.JPG",
-        "name" : "KYU",
+        "name" : "KYU HAN",
         "height" : "6'0",
         "college" : "Swanson",
         "year" : "Senior",
@@ -10,7 +10,7 @@
     },
     {
         "face" : "images/athlete images/ben.JPG",
-        "name" : "BEN",
+        "name" : "BEN RICHLIN",
         "height" : "6'0",
         "college" : "Swanson",
         "year" : "Senior",
@@ -19,7 +19,7 @@
     },
     {
         "face" : "images/athlete images/david.JPG",
-        "name" : "DAVID",
+        "name" : "DAVID HACKNEY",
         "height" : "6'0",
         "college" : "Swanson",
         "year" : "Senior",
@@ -28,7 +28,7 @@
     },
     {
         "face" : "images/athlete images/gravy.JPG",
-        "name" : "GRAVY FOST",
+        "name" : "GRAVY ROST",
         "height" : "6'0",
         "college" : "Swanson",
         "year" : "Senior",
@@ -46,7 +46,7 @@
     },
     {
         "face" : "images/athlete images/",
-        "name" : "JEREMY",
+        "name" : "JEREMY FRANKEL",
         "height" : "6'0",
         "college" : "Swanson",
         "year" : "Senior",
