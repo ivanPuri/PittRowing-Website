@@ -90,11 +90,13 @@ body{
 .hist-desc{
     background-color: white;
     color:  #00205B;
+    overflow-y: auto;
+    height: 85%;
 }
 
 .hist-text{
 font-size: 1.3em;
-overflow-y: scroll;
+
 }
 
 
