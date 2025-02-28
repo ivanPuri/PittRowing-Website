@@ -85,10 +85,16 @@ body{
       padding: 10px 15px;
     }
   
-
     .navbar-nav{
         text-align: center;
     }
+
+    .mobile-outer-row{
+        background-color: rgb(20, 27, 77);
+        width: 100%;
+        height: 100%;
+    }
+
 
   }
 
@@ -111,10 +117,29 @@ body{
     /* border: 2px solid white; */
     margin-top: 3rem;
 }
+
 .daniel-desc{
     /* border: 2px solid orange; */
     margin-top: 3rem;
     height: 100%;
     color: white;
-
+    overflow-y: auto;
 }
+
+.mobile-slide{
+    background-color: orange;
+    color: rgb(20, 27, 77);
+    overflow-y: scroll;
+}
+
+.mobile-image{
+    object-fit:scale-down;
+    height: 164px;
+    margin-top: 3rem !important;
+}
+
+
+
+
+
+
