@@ -97,6 +97,10 @@ body{
         text-align: center;
     }
 
+    .outer-row{
+        padding: 0 !important;
+    }
+
   }
   
 
@@ -137,6 +141,7 @@ body{
     height: 85%;
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
+    width: 100%;
 }
 
 .hist-text{
