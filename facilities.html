@@ -39,7 +39,6 @@
         <!--! Sticky Stripes  -->
         <div class="header outerHeader sticky-top">
             <!-- Blue Stripe  -->
-
             <div class="row px-4 mx-auto blue-stripe">
 
               <div class="col-12 px-0 pittLogo-container">
@@ -49,11 +48,15 @@
                 
                 
             </div>
+
             <!-- Yellow Stripe -->
             <div class="row px-5 mx-auto yellow-stripe">
               <div class="site-title w-100 text-center">
-                <h1>
+                <h1 class="d-none d-md-block">
                   University of Pittsburgh Rowing Club
+                </h1>
+                <h1 class="d-sm d-md-none">
+                  Pitt Rowing Club
                 </h1>
                </div>
             </div>
@@ -63,7 +66,7 @@
               <nav class="navbar navbar-expand-lg">
                 <div class="container nav-container">
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
@@ -89,7 +92,7 @@
                           <li><a class="dropdown-item" href="NwomenRoster.html">Novice Women</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item px-2">
+                      <li class="nav-item d-none d-md-block px-2">
                         <a class="nav-link" href="conditions.html">Conditions</a>
                       </li>
 
@@ -111,6 +114,7 @@
                 </div>
               </nav>
              </div>
+
         </div>
 
 
@@ -124,8 +128,8 @@
 
           <!-- !                 READ PLEASE!                  -->
           <!-- ! everything below here is going to be variable -->
-
-          <div class="mx-auto outer-row">
+          <!-- Laptop Outer Row -->
+          <div class="mx-auto outer-row d-none d-md-block h-100">
             <div class="row">
               <div class="col w-50">
                 <img src="images/boathouse.jpg" alt="" class="mt-5 w-100 boathouse-img img-fluid">
@@ -139,7 +143,7 @@
             <div class="row">
               <div class="col fleet-desc h-25 px-5 pb-4 pt-4">
                 <h1 class="py-4">FLEET</h1>
-                <p>Our team primarily sweeps, housing seven 8+ shells and six 4+ shells. However, we also maintain a small fleet of sculling boats, with six 2x/- shells, and two 1x shells. Our shells are sourced from a variety of manufacturers, ranging from Hudson, Empacher, Vespoli, King, and Wintech. </p>
+                <p>Our team primarily sweeps, housing seven 8+ shells and six 4+ shells. However, we also maintain a small fleet of sculling boats, with six 2x/- shells, and two 1x shells. Our shells are sourced from a variety of manufacturers, ranging from Hudson, Empacher, Vespoli, King, and Wintech.</p>
               </div>
               <div class="col w-50">
                 <img src="images/fleet.jpg" alt="" class="mt-5 w-100 boathouse-img img-fluid">
@@ -156,6 +160,73 @@
               </div>
             </div>
 
+
+          </div>
+
+
+          <!-- Mobile Outer Row -->
+          <div class="mobile-auto-row d-block d-md-none mx-auto h-100 w-100">
+
+            <div id="mobile-carousel" class="carousel slide w-100 h-100">
+
+              <!-- carousel indicator slide buttons -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner w-100 h-100">
+
+                <!-- BoatHouse -->
+                <div class="carousel-item w-100 h-100 active">
+                  
+                  <div class="col-12 mx-auto h-100 w-100 mobile-slide">
+                    <div class="mx-auto h-100 px-3">
+                      <img class="img-fluid mx-auto w-100 mobile-image" src="images/boathouse.jpg"     alt="Daniel Grancea, Head Coach">
+                      <h1 class="w-100 text-center py-3" >THREE RIVERS BOATHOUSE</h1>
+                      <p style="font-size: 1.5rem;">Our bay is located at Three Rivers Rowing Association in Washington's Landing, Pittsburgh. We row primarily on the Allegheny River, but occasionally our practices take us on the Monongahela and Ohio Rivers. We have more than 21k of rowable water stretching from Sharpsburg all the way down to Homestead.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <!-- Fleet -->
+                <div class="carousel-item w-100 h-100">
+                  
+                  <div class="col-12 mx-auto h-100 w-100 mobile-slide">
+                    <div class="mx-auto h-100 px-3">
+                      <img class="img-fluid mx-auto w-100 mobile-image" src="images/fleet.jpg" alt="Our Fleet">
+                      <h1 class="w-100 text-center py-3" >FLEET</h1>
+                      <p class="pb-5" style="font-size: 1.5rem;">Our team primarily sweeps, housing seven 8+ shells and six 4+ shells. However, we also maintain a small fleet of sculling boats, with six 2x/- shells, and two 1x shells. Our shells are sourced from a variety of manufacturers, ranging from Hudson, Empacher, Vespoli, King, and Wintech.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Bellefield -->
+                <div class="carousel-item w-100 h-100">
+                  <div class="col-12 mx-auto h-100 w-100 mobile-slide">
+                    <div class="mx-auto h-100 px-3">
+                      <img class="img-fluid mx-auto w-100 mobile-image" src="images/bellefield.jpg" alt="Bellefield Hall ">
+                      <h1 class="w-100 text-center py-3" >BELLEFIELD</h1>
+                      <p class="pb-5" style="font-size: 1.5rem;">Our indoor training facility is located in Bellefield Hall, a five minute walk from the Cathedral of Learning. In addition to our private erg room, there is access to a weight room and pool downstairs.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- next & previous buttons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#mobile-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#mobile-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
           </div>
             
@@ -189,11 +260,6 @@
       </div>
 
     </div>
-
-
-
-
-
 
 
   
