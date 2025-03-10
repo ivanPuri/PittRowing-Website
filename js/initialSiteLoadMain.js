@@ -13,10 +13,7 @@ async function fetchData() {
     }
 }
 
-//! Making it static for django
-function getStaticPath(path) {
-    return `/static/${path}`;
-}
+
 
 //! Function to fill the carousel with the loaded in json data
 function fillPage(jsonData) {
@@ -46,7 +43,6 @@ function fillPage(jsonData) {
         listItem.setAttribute("data-id",index);
         listNewsDiv.style.fontSize = "1.25 rem";
         
-
 
         // adding classes to both new slide and box carousel items
         slide.classList.add('carousel-item');
@@ -91,7 +87,25 @@ function fillPage(jsonData) {
     });
 }
 
+function fillMobile(jsonData){
+    const carouselInner = document.querySelector('#carousel-mobile-inner');
+    const descriptionBox = document.querySelector('#desc-carousel-mobile-inner');
 
+    jsonData.forEach((dict, index) => {
+        const slide = document.createElement('div');
+        const descDateDiv = document.createElement('div');
+        const descContentDiv = document.createElement('div');
+        slide.classList.add('carousel-item');
+        box.classList.add('carousel-item');
+        descDateDiv.textContent = dict.date;
+        descDateDiv.style.fontSize = "1.25rem";
+        descContentDiv.style.fontSize = "1.75rem";
+        descContentDiv.textContent = dict.description;
+        descDateDiv.classList.add("desc-date");
+        descContentDiv.classList.add("desc-content");   
+    })
+
+}
 
 
 // .then is for the promise completion needed for ASYNC functions
@@ -99,7 +113,7 @@ function fillPage(jsonData) {
 fetchData().then(jsonData => {
     console.log('Fetched and parsed data:', jsonData); 
     fillPage(jsonData); 
-    fillDescription(jsonData);
+
 });
 
 
