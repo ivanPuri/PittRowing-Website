@@ -92,17 +92,42 @@ function fillMobile(jsonData){
     const descriptionBox = document.querySelector('#desc-carousel-mobile-inner');
 
     jsonData.forEach((dict, index) => {
+        // Creating mobile elements
         const slide = document.createElement('div');
+        const box = document.createElement('div');
         const descDateDiv = document.createElement('div');
         const descContentDiv = document.createElement('div');
-        slide.classList.add('carousel-item');
-        box.classList.add('carousel-item');
-        descDateDiv.textContent = dict.date;
+
+        // creating the carousel items
+        slide.classList.add('carousel-item'); //image carousel
+        box.classList.add('carousel-item'); //info carousel
+
+        descDateDiv.textContent = dict.date; 
         descDateDiv.style.fontSize = "1.25rem";
-        descContentDiv.style.fontSize = "1.75rem";
+
         descContentDiv.textContent = dict.description;
-        descDateDiv.classList.add("desc-date");
-        descContentDiv.classList.add("desc-content");   
+        descContentDiv.style.fontSize = "1.75rem";
+
+        descDateDiv.classList.add("desc-date", "text-center", "p-3");
+        descContentDiv.classList.add("desc-content", "p-3", "text-center");   
+
+        if (index === 0) {
+            slide.classList.add('active');
+            box.classList.add('active');
+        }
+
+        const img = document.createElement('img');
+        img.src = (dict.carousel);
+        img.classList.add('d-block', 'w-100', 'img-fluid');
+        img.style.height = '100%';
+        img.style.objectFit = 'cover'; 
+
+        box.appendChild(descDateDiv);
+        box.appendChild(descContentDiv);
+        descriptionBox.appendChild(box);
+
+        slide.appendChild(img);
+        carouselInner.appendChild(slide);
     })
 
 }
@@ -113,7 +138,7 @@ function fillMobile(jsonData){
 fetchData().then(jsonData => {
     console.log('Fetched and parsed data:', jsonData); 
     fillPage(jsonData); 
-
+    fillMobile(jsonData);
 });
 
 
