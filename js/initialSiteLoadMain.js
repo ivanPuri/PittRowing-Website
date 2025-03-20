@@ -103,7 +103,7 @@ function fillMobile(jsonData){
         box.classList.add('carousel-item'); //info carousel
 
         descDateDiv.textContent = dict.date; 
-        descDateDiv.style.fontSize = "1.25rem";
+        descDateDiv.style.fontSize = "1.5rem";
 
         descContentDiv.textContent = dict.description;
         descContentDiv.style.fontSize = "1.75rem";

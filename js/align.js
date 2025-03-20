@@ -3,10 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // ride:carousel == autoplay and interval == 8 seconds
   const slide = new bootstrap.Carousel(document.querySelector("#carousel"), {
       interval: 8000, 
-      ride: 'carousel' 
+      ride: 'carousel',
+      touch: 'true'
+      
   });
   const box = new bootstrap.Carousel(document.querySelector('#desc-carousel'), {
-      ride: false
+      ride: false,
+      touch: 'true'
   });
   
   // !Add an event listener to each list item
@@ -27,14 +30,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+  // Mobile Syncronisation from here on forth
   //!Mobile Syncronisation
   const Mslide = new bootstrap.Carousel(document.querySelector("#carousel-mobile"), {
-    interval: 8000, 
-    ride: 'carousel' 
+    interval: 1000, 
+    ride: 'carousel',
+    // touch: 'true'
   });
   const Mbox = new bootstrap.Carousel(document.querySelector('#desc-carousel-mobile'), {
-    ride: false
+    ride: false,
+    touch: 'true'
   });
 
   document.querySelector("#carousel-mobile").addEventListener('slide.bs.carousel', event => {
