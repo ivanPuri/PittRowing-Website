@@ -4,12 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const slide = new bootstrap.Carousel(document.querySelector("#carousel"), {
       interval: 8000, 
       ride: 'carousel',
-      touch: 'true'
       
   });
   const box = new bootstrap.Carousel(document.querySelector('#desc-carousel'), {
-      ride: false,
-      touch: 'true'
+      ride: false
   });
   
   // !Add an event listener to each list item
@@ -33,18 +31,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // Mobile Syncronisation from here on forth
   //!Mobile Syncronisation
   const Mslide = new bootstrap.Carousel(document.querySelector("#carousel-mobile"), {
-    interval: 1000, 
-    ride: 'carousel',
-    // touch: 'true'
+    interval: 8000, 
+    ride: 'carousel'
   });
   const Mbox = new bootstrap.Carousel(document.querySelector('#desc-carousel-mobile'), {
     ride: false,
-    touch: 'true'
+  });
+
+  document.querySelector("#desc-carousel-mobile").addEventListener('slide.bs.carousel', event => {
+    Mslide.to(event.to);
   });
 
   document.querySelector("#carousel-mobile").addEventListener('slide.bs.carousel', event => {
     Mbox.to(event.to);
-});
+  });
 
 
   
