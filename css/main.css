@@ -92,7 +92,7 @@ body{
 }
 
 .top-stack{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 72% !important;
     width: 100%;
     position: relative;
@@ -105,19 +105,19 @@ body{
 
 
 .bottom-stack{
-    border: 2px solid rgb(18, 122, 56);
+    /* border: 2px solid rgb(18, 122, 56); */
     width: 100%;
     height: 28%;
     background-color: white;
 } 
 
 .side-stack-container{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 
 }
 
 .news-header{
-    border: 2px solid rgb(18, 122, 56);
+    /* border: 2px solid rgb(18, 122, 56); */
     background-color: #003594;
     color: #FFB81C;
     height: 8%;
