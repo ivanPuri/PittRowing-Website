@@ -62,6 +62,32 @@ body{
     height: 15vh;
 
 }
+
+@media (max-width: 768px) { 
+    /* Styling the mobile dropdown */
+    .navbar-collapse {
+      background-color: #FFB81C; 
+      padding: 10px;
+      border-radius: 8px; 
+    }
+  
+    .dropdown-menu {
+      background-color: #FFB81C; 
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);     
+    }
+  
+    .dropdown-menu .dropdown-item {
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+  
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+  }
 /*! --------- Page Content --------- */
 .content-container{
     height: 74vh;

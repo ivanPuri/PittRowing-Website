@@ -13,10 +13,7 @@ async function fetchData() {
     }
 }
 
-//! Making it static for django
-function getStaticPath(path) {
-    return `/static/${path}`;
-}
+
 
 //! Function to fill the carousel with the loaded in json data
 function fillPage(jsonData) {
@@ -46,7 +43,6 @@ function fillPage(jsonData) {
         listItem.setAttribute("data-id",index);
         listNewsDiv.style.fontSize = "1.25 rem";
         
-
 
         // adding classes to both new slide and box carousel items
         slide.classList.add('carousel-item');
@@ -91,7 +87,50 @@ function fillPage(jsonData) {
     });
 }
 
+function fillMobile(jsonData){
+    const carouselInner = document.querySelector('#carousel-mobile-inner');
+    const descriptionBox = document.querySelector('#desc-carousel-mobile-inner');
 
+    jsonData.forEach((dict, index) => {
+        // Creating mobile elements
+        const slide = document.createElement('div');
+        const box = document.createElement('div');
+        const descDateDiv = document.createElement('div');
+        const descContentDiv = document.createElement('div');
+
+        // creating the carousel items
+        slide.classList.add('carousel-item'); //image carousel
+        box.classList.add('carousel-item'); //info carousel
+
+        descDateDiv.textContent = dict.date; 
+        descDateDiv.style.fontSize = "1.5rem";
+
+        descContentDiv.textContent = dict.description;
+        descContentDiv.style.fontSize = "1.75rem";
+
+        descDateDiv.classList.add("desc-date", "text-center", "p-3");
+        descContentDiv.classList.add("desc-content", "p-3", "text-center");   
+
+        if (index === 0) {
+            slide.classList.add('active');
+            box.classList.add('active');
+        }
+
+        const img = document.createElement('img');
+        img.src = (dict.carousel);
+        img.classList.add('d-block', 'w-100', 'img-fluid');
+        img.style.height = '100%';
+        img.style.objectFit = 'cover'; 
+
+        box.appendChild(descDateDiv);
+        box.appendChild(descContentDiv);
+        descriptionBox.appendChild(box);
+
+        slide.appendChild(img);
+        carouselInner.appendChild(slide);
+    })
+
+}
 
 
 // .then is for the promise completion needed for ASYNC functions
@@ -99,7 +138,7 @@ function fillPage(jsonData) {
 fetchData().then(jsonData => {
     console.log('Fetched and parsed data:', jsonData); 
     fillPage(jsonData); 
-    fillDescription(jsonData);
+    fillMobile(jsonData);
 });
 
 
