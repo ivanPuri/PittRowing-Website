@@ -124,8 +124,10 @@
           <!-- ! everything below here is going to be variable -->
             <div class="row mx-auto outer-row">
 
+
+<!-- LAPTOP SCREEN -->
                 <!-- Info Carousel -->
-                <div id="carousel" class="carousel slide col-8 px-0 carousel-container">
+                <div id="carousel" class="carousel slide col-8 px-0 carousel-container d-none d-md-block">
                     <!-- Title Stripe -->
 
                     <!-- Carousel -->
@@ -216,16 +218,112 @@
                 </div>
 
                 <!-- Image -->
-                 <div class="col-4 px-0 mx-auto py-0 side-img-container ">
+                 <div class="col-4 px-0 mx-auto py-0 side-img-container d-none d-md-block">
                     <div id="season" class="white-stripe d-flex justify-content-center align-items-center w-100 ">
                         <h1 class="title racing-season"></h1>
                     </div>
                     <img class="d-block img-fluid mt-5 old-flick" src="images/OldCrewFlick.jpeg" alt="">
                  </div>
 
-            </div>
+
+<!-- MOBILE SCREEN -->
+
+                <!-- Info Carousel -->
+                <div id="carousel-mobile" class="carousel slide col-12 px-0 carousel-container d-sm-block d-md-none">
+                    <!-- Title Stripe -->
+
+                    <!-- Carousel -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel-mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel-mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel-mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+
+                            <div class="white-stripe d-flex justify-content-center align-items-center mb-0">
+                                <h1 class="title">Fall Racing</h1>
+                            </div>
+
+                            <div class="col info-col w-75 mx-auto mt-5">
+                                <div class="hoto mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-0 pb-3 m-0">HEAD OF THE OHIO</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">PITTSBURGH, PA · OCTOBER 2-3</p>
+                                </div>
+
+                                <div class="charles mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">HEAD OF THE CHARLES</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">BOSTON, MA · OCTOBER 21-23</p>
+                                </div>
+
+                                <div class="schuykill mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">HEAD OF THE SCHUYLKILL</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">PHILADELPHIA, PA · OCTOBER 29-30</p>
+                                </div>
+
+                                <div class="occoquan mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">HEAD OF THE OCCOQUAN</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">FAIRFAX, VA · NOVEMBER 5</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="white-stripe d-flex justify-content-center align-items-center mb-0 sticky-top">
+                                <h1 class="title">Winter Racing</h1>
+                            </div>
+
+                            <div class="col info-col w-75 mx-auto">
+                                <div class="indoors mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">PITTSBURGH INDOOR SPRINTS</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">PITTSBURGH, PA · JANUARY 29</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="white-stripe d-flex justify-content-center align-items-center mb-0">
+                                <h1 class="title">Spring Racing</h1>
+                            </div>
+
+                            <div class="col info-col w-75 mx-auto">
+                                <div class="knecht mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">KNECHT CUP</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">CHERRY HILL, NJ · APRIL 12-13</p>
+                                </div>
+
+                                <div class="dad-vails mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">DAD VAILS REGATTA</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">CHERRY HILL, NJ · MAY 9-10</p>
+                                </div>
+
+                                <div class="acras mx-auto">
+                                    <h3 class="race-header d-flex justify-content-center pt-4 pb-3 m-0">ACRAS</h3>
+                                    <p class="race-date d-flex justify-content-center pb-4 m-0">OAK RIDGE, TN · MAY 16-18</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+                           
+                                
+
+                    </div>
             
-            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mobile" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-mobile" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
 
 
         </div>

@@ -89,6 +89,15 @@ body{
     }
 
   }
+
+  @media (max-width: 768px) {
+  .outer-row {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+}
 /*! --------- Page Content --------- */
 .content-container{
     height: 74vh;
