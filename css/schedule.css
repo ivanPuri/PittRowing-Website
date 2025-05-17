@@ -92,8 +92,10 @@ body{
 
   @media (max-width: 768px) {
   .outer-row {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     height: 100%;
     width: 100%;
   }
