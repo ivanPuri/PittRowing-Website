@@ -7,7 +7,7 @@ const slide = new bootstrap.Carousel(document.querySelector("#carousel"), {
 
 const yearSeason = document.createElement('h1');
 yearSeason.classList.add('title', 'racing-season');
-yearSeason.innerHTML = '2024 Season'
+yearSeason.innerHTML = '2024'
 
 const container = document.querySelector('#season');
 container.appendChild(yearSeason);
