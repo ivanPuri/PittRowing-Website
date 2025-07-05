@@ -1,0 +1,48 @@
+[
+    {
+        "fall": [
+                {
+                    "race":"HEAD OF THE OHIO",
+                    "date": "PITTSBURGH, PA · OCTOBER 2-3"
+                },
+                {
+                    "race":"HEAD OF THE CHARLES",
+                    "date": "BOSTON, MA · OCTOBER 21-23"
+                },
+                {
+                    "race":"HEAD OF THE SCHUYLKILL",
+                    "date": "PHILADELPHIA, PA · OCTOBER 29-30"
+                },
+                {
+                    "race":"HEAD OF THE OCCOQUAN",
+                    "date": "FAIRFAX, VA · NOVEMBER 5"
+                }
+        ],
+
+
+        "winter":{
+            "race": "PITTSBURGH INDOOR SPRINTS",
+            "date": "PITTSBURGH, PA · JANUARY 29"
+        },
+
+        "spring":[
+            {
+                "race":"KNECHT CUP",
+                "date": "CHERRY HILL, NJ · APRIL 12-13"
+            },
+            {
+                "race":"DAD VAILS REGATTA",
+                "date": "CHERRY HILL, NJ · MAY 9-10"
+            },
+            {
+                "race":"ACRAS",
+                "date": "OAK RIDGE, TN · MAY 16-18"
+            }
+        ]
+        
+            
+        
+    }
+    
+
+]
