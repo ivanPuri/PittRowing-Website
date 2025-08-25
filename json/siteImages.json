@@ -2,31 +2,31 @@
     {
         "carousel": "images/hotomain.jpeg",
         "news": "Head of the Ohio",
-        "date": "October 3rd",
+        "date": "October 4th, 2024",
         "description": "Pitt Crew takes on home regatta, Women’s Collegiate Novice 4+: 3rd🥉, Women's Open 4+: 3rd🥉"
     },
     {
         "carousel": "images/phillymain.jpeg",
         "news": "Head of the Schuylkill",
-        "date": "October 28th",
+        "date": "October 28th, 2024",
         "description": "Mens Collegiate Double: 1st in Open Category, 2nd Overall🥇, Women's Collegiate Double: 3rd in Open Category, 5th Overall🥉"
     },
     {
         "carousel": "images/occ.jpeg",
         "news": "Head of the Occoquan",
-        "date": "November 5th",
+        "date": "November 5th, 2024",
         "description": "Men's Collegiate JV 4+: 2nd🥈, Men's Collegiate Varsity 4+: 3rd🥉"
     },
     {
         "carousel": "images/indoors.jpg",
         "news": "Pittsburgh Indoors",
-        "date": "February 1st",
+        "date": "February 1st, 2024",
         "description": "Women's U23: 1st🥇, 2nd🥈Men's U23: 1st🥇, 2nd🥈, 3rd🥉 Women's U23 LWT: 1st🥇 Men's U23 LWT: 3rd🥉 Women's U23 Coxswain 500m: 1st🥇, 2nd🥈, 3rd🥉 Men's U23 Coxswain 500m: 1st🥇Mixed U23 6-Person Relay: 1st🥇, 3rd🥉"
     },
     {
         "carousel": "images/pdog.png",
         "news": "Pitt Day of Giving",
-        "date": "February 25th",
+        "date": "February 25th, 2024",
         "description": "Pitt Day of Giving is Pitt Crew's largest fundraiser of the year, $3,267,000 were raised this year"
     }
 ]
