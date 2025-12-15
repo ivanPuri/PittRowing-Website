@@ -1,93 +1,114 @@
 [
     {
-        "face" : "images/athlete images/kyu.JPG",
-        "name" : "KYU HAN",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "Pittsburgh, PA"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Alexander Chow",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/ben.JPG",
-        "name" : "BEN RICHLIN",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "wc"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Agastya Nutapali",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/david.JPG",
-        "name" : "DAVID HACKNEY",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "wc"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Alex Moore",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/gravy.JPG",
-        "name" : "GRAVY ROST",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "wc"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Alex Moore",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/andrew.JPG",
-        "name" : "ANDREW",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "wc"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Aiden Naik",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "JEREMY FRANKEL",
-        "height" : "6'0",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Electrical Engineering",
-        "town" : "wc"
-    },
-  
-    {
-        "face" : "images/athlete images/",
-        "name" : "SHAWN PARRA",
-        "height" : "5’6”",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Undeclared",
-        "town" : "New Castle, PA"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Amedeo Caruso",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/grant.JPG",
-        "name" : "GRANT FRITZ",
-        "height" : "5'11",
-        "college" : "Dietrich A&S",
-        "year" : "Sophomore",
-        "major" : "Political Science and Economics",
-        "town" : "Kensington, MD"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Bruno Obadic",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "NICHOLAS SAWICKI ",
-        "height" : "5'11",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Biology ",
-        "town" : "Perkasie, PA"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Evan McGrogan",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "JAKE FULTON",
-        "height" : "5’11",
-        "college" : "Pitt School of Computing and Information",
-        "year" : "Freshman",
-        "major" : "Computer Science",
-        "town" : "Kent Island, MD"
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Ian Rakov",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Max Henceroth",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Mikhail Bagrov",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Nick Denisco",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Otis Koo",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "Quincy Li",
+        "height" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     }
 ]
