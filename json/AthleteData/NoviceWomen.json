@@ -1,74 +1,148 @@
 [
     {
-        "face" : "images/athlete images/anna.JPG",
-        "name" : "ANABELLE HOPKINS",
-        "height" : "5'7",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Athletic Training",
-        "town" : "Seattle, WA"
+        "face" : "images/athlete images 2025-2026/Abigail.jpg",
+        "name" : "Abigail Lazewski",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/lauren.JPG",
-        "name" : "LAUREN NEVILLE",
-        "height" : "5’9”",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Biological Sciences",
-        "town" : "Columbus, OH"
+        "face" : "images/athlete images 2025-2026/Emma N.jpg",
+        "name" : "Emma Nagler",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/katherine.JPG",
-        "name" : "KATHERINE",
-        "height" : "5'7",
-        "college" : "Swanson",
-        "year" : "Junior",
-        "major" : "Seattle, WA",
-        "town" : "Seattle, WA"
+        "face" : "images/athlete images 2025-2026/Emma Davidson.jpg",
+        "name" : "Emma Davidson",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "ALINA SNOPKOWSKI",
-        "height" : "5'8",
-        "college" : "Post Grad",
-        "year" : "N/A",
-        "major" : "Public and International Affairs",
-        "town" : "Oxford PA"
+        "face" : "images/athlete images 2025-2026/Julia O.jpg",
+        "name" : "Julia O'Connor",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "MEGAN MULHURN",
-        "height" : "5’3”",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Neuroscience",
-        "town" : "Pittsburgh, PA"
+        "face" : "images/athlete images 2025-2026/Kya.jpg",
+        "name" : "Kya Nelson",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "JILLIAN THOMAS",
-        "height" : "5’4”",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Biology & Neuroscience",
-        "town" : "Swarthmore, PA"
+        "name" : "Lauren Sweeney ",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/allief.JPG",
-        "name" : "ALEXANDRIA FRANCK",
-        "height" : "5’8”",
-        "college" : "School of Nursing",
-        "year" : "Frehsman",
-        "major" : "Global Nursing",
-        "town" : "Chalfont, PA"
+        "face" : "images/athlete images 2025-2026/lexi.jpg",
+        "name" : "Lexi Pumma",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     },
     {
-        "face" : "images/athlete images/",
-        "name" : "ELLIE KRUMM",
-        "height" : "5’4",
-        "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Microbiology",
-        "town" : "Philadephia, PA"
+        "name" : "Maddox Cohen",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "name" : "Mary Benner",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "name" : "Madison Billman",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Maya R.jpg",
+        "name" : "Maya Rosenberger",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Rishika.jpg",
+        "name" : "Rishika Kokje",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "name" : "Sophia Paschal",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "name" : "Shriya Pradhan",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "name" : "Sarah Salem",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Sloan.jpg",
+        "name" : "Sloan Williams",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Zoe.jpg",
+        "name" : "Zoe Kleckner",
+        "height" : "",
+        "college" : "",
+        "year" : "",
+        "major" : "",
+        "town" : ""
     }
 ]

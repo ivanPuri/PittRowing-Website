@@ -1,6 +1,6 @@
 [
     {
-        "face" : "images/athlete images/allie.JPG",
+        "face" : "images/athlete images 2025-2026/Allie.JPG",
         "name" : "ALLIE NEIDERT",
         "height" : "5'6”",
         "college" : "Dietrich A&S",
@@ -9,27 +9,7 @@
         "town" : ""
     },
     {
-        "face" : "images/athlete images/abbatron.jpg",
-        "name" : "ABBY BAKKENIST",
-        "height" : "5’10”",
-        "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Physics and Quantum Computing",
-        "town" : "Pittsburgh, PA"
-        
-    },
-    {
-        "face" : "images/athlete images/myah.JPG",
-        "name" : "MYAH DANNER",
-        "height" : "5'4”",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Psychology",
-        "town" : "Harrisburg, PA"
-        
-    },
-    {
-        "face" : "images/athlete images/eliza.jpg",
+        "face" : "images/athlete images 2025-2026/Eliza.jpg",
         "name" : "ELIZA CALLAHAN",
         "height" : "5'3”",
         "college" : "Dietrich A&S",
@@ -38,61 +18,7 @@
         "town" : "Milton, Ma"
     },
     {
-        "face" : "images/athlete images/robin.JPG",
-        "name" : "ROBIN HIGGINS",
-        "height" : "5’2”",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Biology",
-        "town" : "Media, PA"
-    },
-    {
-        "face" : "images/athlete images/carina.JPG",
-        "name" : "CARINA ROSE",
-        "height" : "",
-        "college" : "Swanson",
-        "year" : "Senior",
-        "major" : "Computer Science",
-        "town" : "Pheonixville, PA"
-    },
-    {
-        "face" : "images/athlete images/sara.jpg",
-        "name" : "SARA ROUIZEM",
-        "height" : "5’5”",
-        "college" : "College of Business Administration",
-        "year" : "Junior",
-        "major" : "Marketing and Global Management ",
-        "town" : "Kennett Square, PA"
-    },
-    {
-        "face" : "images/athlete images/emma.JPG",
-        "name" : "EMMA KLECKNER",
-        "height" : "6'0”",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Communication & Psychology",
-        "town" : "West Chester, PA"
-    },
-    {
-        "face" : "images/athlete images/evyn.JPG",
-        "name" : "EVYN DOWD",
-        "height" : "5'6”",
-        "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Environmental Science",
-        "town" : "Pittsburgh, PA"
-    },
-    {
-        "face" : "images/athlete images/gwen.JPG",
-        "name" : "GWENYTH DYMEK",
-        "height" : "",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Public and Professional writing",
-        "town" : "wc"
-    },
-    {
-        "face" : "images/athlete images/alexis.JPG",
+        "face" : "images/athlete images 2025-2026/Alexis.JPG",
         "name" : "ALEXIS GRAY",
         "height" : "5’10”",
         "college" : "School of Education",
@@ -100,35 +26,8 @@
         "major" : "Exercise Science ",
         "town" : "Chester, NY"
     },
-    {
-        "face" : "images/athlete images/ABBYT.JPG",
-        "name" : "ABBY TOTH",
-        "height" : "6'0”",
-        "college" : "School of Nursing ",
-        "year" : "Senior",
-        "major" : "Global Nursing",
-        "town" : "Leesburg, VA"
-    },
-    {
-        "face" : "images/athlete images/camille.jpg",
-        "name" : "CAMILLE SCORDIS",
-        "height" : "5'7”",
-        "college" : "Dietrich A&S",
-        "year" : "Senior",
-        "major" : "Psychology",
-        "town" : "Lawrence, NJ"
-    },
-    {
-        "face" : "images/athlete images/juliaM.jpg",
-        "name" : "JULIA MOLLEN",
-        "height" : "",
-        "college" : "Frederick Honours",
-        "year" : "Senior",
-        "major" : "Political Science",
-        "town" : "Pittsburgh, PA"
-    },
-    {
-        "face" : "images/athlete images/tessa.jpg",
+        {
+        "face" : "images/athlete images 2025-2026/Tessa.jpg",
         "name" : "TESSA POWERS",
         "height" : "6'0”",
         "college" : "Dietrich A&S",
@@ -137,16 +36,7 @@
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images/helena.JPG",
-        "name" : "HELENA ORTH",
-        "height" : "6'0”",
-        "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Biological Sciences",
-        "town" : "Hingham, MA"
-    },
-    {
-        "face" : "images/athlete images/cam.JPG",
+        "face" : "images/athlete images 2025-2026/Cam.JPG",
         "name" : "CAMERAN THOMPSON",
         "height" : "5’4”",
         "college" : "Frederick Honours",
@@ -155,12 +45,65 @@
         "town" : "Murrysville, PA"
     },
     {
-        "face" : "images/athlete images/",
+        "face" : "images/athlete images 2025-2026/Ellie R",
         "name" : "ELLIE ROBERTS",
         "height" : "5'5”",
         "college" : "Swanson School of Engineering",
         "year" : "Senior",
         "major" : "Biomechanical Engineering",
         "town" : "Richmond, VA"
+    },
+    {
+        "face" : "images/athlete images 2024-2025/evyn.JPG",
+        "name" : "EVYN DOWD",
+        "height" : "5'6”",
+        "college" : "Dietrich A&S",
+        "year" : "Junior",
+        "major" : "Environmental Science",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Anna.JPG",
+        "name" : "ANNA HOPKINS",
+        "height" : "5'7",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Athletic Training",
+        "town" : "Seattle, WA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Lauren.JPG",
+        "name" : "LAUREN NEVILLE",
+        "height" : "5’9”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Biological Sciences",
+        "town" : "Columbus, OH"
+    },
+    {
+        "name" : "ALINA SNOPKOWSKI",
+        "height" : "5'8",
+        "college" : "Post Grad",
+        "year" : "N/A",
+        "major" : "Public and International Affairs",
+        "town" : "Oxford PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Jillian.jpg",
+        "name" : "JILLIAN THOMAS",
+        "height" : "5’4”",
+        "college" : "Dietrich A&S",
+        "year" : "Freshman",
+        "major" : "Biology & Neuroscience",
+        "town" : "Swarthmore, PA"
+    },
+    {
+        "face" : "images/athlete images 2024-2025/sara.jpg",
+        "name" : "SARA ROUIZEM",
+        "height" : "5’5”",
+        "college" : "College of Business Administration",
+        "year" : "Junior",
+        "major" : "Marketing and Global Management ",
+        "town" : "Kennett Square, PA"
     }
 ]
