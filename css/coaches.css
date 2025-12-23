@@ -100,13 +100,11 @@ body{
 
 /*! --------- Page Content --------- */
 .content-container{
-    height: 74vh;
     overflow-y: auto;
 }
 
 .outer-row{
     /* border: 2px solid black; */
-    height: 100%;
     width: 100%;
     padding-left: 6rem;
     padding-right: 6rem;
@@ -121,9 +119,7 @@ body{
 .daniel-desc{
     /* border: 2px solid orange; */
     margin-top: 3rem;
-    height: 100%;
     color: white;
-    overflow-y: auto;
 }
 
 .mobile-slide{
