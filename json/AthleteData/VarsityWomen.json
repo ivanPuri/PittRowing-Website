@@ -1,109 +1,98 @@
 [
     {
-        "face" : "images/athlete images 2025-2026/Allie.JPG",
+        "face" : "images/athlete images 2025-2026/Allie.jpg",
         "name" : "ALLIE NEIDERT",
-        "height" : "5'6”",
         "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Psychology",
-        "town" : ""
+        "year" : "2026",
+        "major" : "Psychology & Neuroscience",
+        "town" : "Cinnaminson, NJ"
     },
     {
         "face" : "images/athlete images 2025-2026/Eliza.jpg",
         "name" : "ELIZA CALLAHAN",
-        "height" : "5'3”",
         "college" : "Dietrich A&S",
-        "year" : "Junior",
+        "year" : "2026",
         "major" : "Computational Biology and French",
-        "town" : "Milton, Ma"
+        "town" : "Milton, MA"
     },
     {
-        "face" : "images/athlete images 2025-2026/Alexis.JPG",
+        "face" : "images/athlete images 2025-2026/Alexis.jpg",
         "name" : "ALEXIS GRAY",
-        "height" : "5’10”",
         "college" : "School of Education",
-        "year" : "Junior",
-        "major" : "Exercise Science ",
+        "year" : "2026",
+        "major" : "Exercise Science",
         "town" : "Chester, NY"
     },
         {
         "face" : "images/athlete images 2025-2026/Tessa.jpg",
         "name" : "TESSA POWERS",
-        "height" : "6'0”",
-        "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Computer Science",
+        "college" : "General Studies",
+        "year" : "2026",
+        "major" : "Media & Professional Communications",
         "town" : "wc"
     },
     {
-        "face" : "images/athlete images 2025-2026/Cam.JPG",
+        "face" : "images/athlete images 2025-2026/Cam.jpg",
         "name" : "CAMERAN THOMPSON",
-        "height" : "5’4”",
         "college" : "Frederick Honours",
-        "year" : "Senior",
-        "major" : "Neuroscience and Sociology ",
+        "year" : "Winter 2025",
+        "major" : "Neuroscience and Sociology",
         "town" : "Murrysville, PA"
     },
     {
-        "face" : "images/athlete images 2025-2026/Ellie R",
+        "face" : "images/athlete images 2025-2026/Ellie R.jpg",
         "name" : "ELLIE ROBERTS",
-        "height" : "5'5”",
         "college" : "Swanson School of Engineering",
-        "year" : "Senior",
-        "major" : "Biomechanical Engineering",
+        "year" : "2027",
+        "major" : "Bioengineering",
         "town" : "Richmond, VA"
     },
     {
         "face" : "images/athlete images 2024-2025/evyn.JPG",
         "name" : "EVYN DOWD",
-        "height" : "5'6”",
         "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Environmental Science",
+        "year" : "2026",
+        "major" : "Environmental Studies",
         "town" : "Pittsburgh, PA"
     },
     {
-        "face" : "images/athlete images 2025-2026/Anna.JPG",
+        "face" : "images/athlete images 2025-2026/Anna.jpg",
         "name" : "ANNA HOPKINS",
-        "height" : "5'7",
         "college" : "Dietrich A&S",
-        "year" : "Freshman",
+        "year" : "2029",
         "major" : "Athletic Training",
         "town" : "Seattle, WA"
     },
     {
-        "face" : "images/athlete images 2025-2026/Lauren.JPG",
+        "face" : "images/athlete images 2025-2026/Lauren.jpg",
         "name" : "LAUREN NEVILLE",
-        "height" : "5’9”",
         "college" : "Dietrich A&S",
-        "year" : "Freshman",
-        "major" : "Biological Sciences",
+        "year" : "2028",
+        "major" : "Biology",
         "town" : "Columbus, OH"
     },
     {
+        "face" : "images/athelete images 2025-2026/Alina.jpg",
         "name" : "ALINA SNOPKOWSKI",
-        "height" : "5'8",
         "college" : "Post Grad",
         "year" : "N/A",
         "major" : "Public and International Affairs",
-        "town" : "Oxford PA"
+        "town" : "Oxford, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Jillian.jpg",
         "name" : "JILLIAN THOMAS",
-        "height" : "5’4”",
         "college" : "Dietrich A&S",
-        "year" : "Freshman",
+        "year" : "2028",
         "major" : "Biology & Neuroscience",
         "town" : "Swarthmore, PA"
     },
     {
         "face" : "images/athlete images 2024-2025/sara.jpg",
         "name" : "SARA ROUIZEM",
-        "height" : "5’5”",
         "college" : "College of Business Administration",
-        "year" : "Junior",
-        "major" : "Marketing and Global Management ",
+        "year" : "2026",
+        "major" : "Marketing and Global Management",
         "town" : "Kennett Square, PA"
     }
 ]

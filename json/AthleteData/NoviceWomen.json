@@ -1,148 +1,137 @@
 [
     {
         "face" : "images/athlete images 2025-2026/Abigail.jpg",
-        "name" : "Abigail Lazewski",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "ABBY LAZEWSKI",
+        "college" : "Nursing",
+        "year" : "2029",
+        "major" : "Nursing",
+        "town" : "Bethlehem, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Emma N.jpg",
-        "name" : "Emma Nagler",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "EMMA NAGLER",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Communications",
+        "town" : "Hillsdale, NJ"
     },
     {
         "face" : "images/athlete images 2025-2026/Emma Davidson.jpg",
-        "name" : "Emma Davidson",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "EMMA DAVIDSON",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Psychology",
+        "town" : "West Chester, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Julia O.jpg",
-        "name" : "Julia O'Connor",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "JULIA O'CONNOR",
+        "college" : "Undecided",
+        "year" : "2029",
+        "major" : "Undecided",
+        "town" : "Wayne, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Kya.jpg",
-        "name" : "Kya Nelson",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "KYA NELSON",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Psychology",
+        "town" : "Allentown, PA"
     },
     {
-        "name" : "Lauren Sweeney ",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Lauren S.jpg",
+        "name" : "LAUREN SWEENEY",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Biology",
+        "town" : "Philadelphia, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/lexi.jpg",
-        "name" : "Lexi Pumma",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "LEXI PUMMA",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Psycology",
+        "town" : "Bothell, WA"
     },
     {
-        "name" : "Maddox Cohen",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Maddox.jpg",
+        "name" : "MADDOX COHEN",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Bioengineering",
+        "town" : "West Chester, PA"
     },
     {
-        "name" : "Mary Benner",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Mary.jpg",
+        "name" : "MARY BENNER",
+        "college" : "Health and Rehabilitation Sciences",
+        "year" : "2029",
+        "major" : "Physical Therapy",
+        "town" : "Willow Grove, PA"
     },
     {
-        "name" : "Madison Billman",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Madison B.jpg",
+        "name" : "MADISON BILLMAN",
+        "college" : "Health and Rehabilitation Sciences",
+        "year" : "2029",
+        "major" : "Rehabilitation Science",
+        "town" : "Export, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Maya R.jpg",
-        "name" : "Maya Rosenberger",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "MAYA ROSENBERGER",
+        "college" : "Health and Rehabilitation Sciences",
+        "year" : "2029",
+        "major" : "Speech Therapy",
+        "town" : "Havertown, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Rishika.jpg",
-        "name" : "Rishika Kokje",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "RISHIKA KOKJE",
+        "college" : "Business Administration",
+        "year" : "2029",
+        "major" : "Business",
+        "town" : "Philadelphia, PA"
     },
     {
-        "name" : "Sophia Paschal",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Sophie.jpg",
+        "name" : "SOPHIA PASCHAL",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Political Science",
+        "town" : "Marietta, Ohio"
     },
     {
-        "name" : "Shriya Pradhan",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "SHRIYA PRADHAN",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
-        "name" : "Sarah Salem",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Sarah S.jpg",
+        "name" : "SARAH SALEM",
+        "college" : "Health and Rehabilitation Sciences",
+        "year" : "2029",
+        "major" : "Nutrition",
+        "town" : "Montgomereyville, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Sloan.jpg",
-        "name" : "Sloan Williams",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "SLOAN WILLIAMS",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Psychology",
+        "town" : "Philadelphia, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Zoe.jpg",
-        "name" : "Zoe Kleckner",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "ZOE KLECKNER",    
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Psychology",
+        "town" : "West Chester, PA"
     }
 ]

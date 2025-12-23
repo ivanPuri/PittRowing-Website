@@ -2,108 +2,97 @@
     {
         "face" : "images/athlete images 2025-2026/Holden.jpg",
         "name" : "HOLDEN GENT",
-        "height" : "6'3",
         "college" : "Computing & Information",
-        "year" : "Junior",
+        "year" : "2026",
         "major" : "Computer Science",
         "town" : "Pittsburgh, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Voon.jpg",
         "name" : "IVAN PURI",
-        "height" : "6'0",
         "college" : "Dietrich A&S",
-        "year" : "Junior",
+        "year" : "2027",
         "major" : "Computational Biology",
         "town" : "West Chester, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Eesa.jpg",
         "name" : "EESA NOAMAN",
-        "height" : "5'10",
         "college" : "Dietrich A&S",
-        "year" : "Junior",
-        "major" : "Molecular Biology",
+        "year" : "2026",
+        "major" : "Biochemistry",
         "town" : "Pittsburgh, PA"
     },
     {
-    "face" : "images/athlete images 2025-2026/Matt.jpg",
-    "name" : "MATT HADDAD",
-    "height" : "5’8",
-    "college" : "Swanson",
-    "year" : "Junior",
-    "major" : "Engineering",
-    "town" : "Ho-Ho-kus, NJ"
+        "face" : "images/athlete images 2025-2026/Matt.jpg",
+        "name" : "MATT HADDAD",
+        "college" : "Swanson",
+        "year" : "2026",
+        "major" : "Pharmacy",
+        "town" : "Ho-Ho-kus, NJ"
     },
     {
         "face" : "images/athlete images 2025-2026/Ben R.jpg",
-        "name" : "Ben Richlin",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "BEN RICHLIN",
+        "college" : "Dietrich A&S",
+        "year" : "2028",
+        "major" : "Neuroscience",
+        "town" : "Doylestown, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/David.jpg",
-        "name" : "David Hackney",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "DAVID HACKNEY",
+        "college" : "Swanson",
+        "year" : "2028",
+        "major" : "Bioengineering",
+        "town" : "Cleaveland, Ohio"
     },
     {
         "face" : "images/athlete images 2025-2026/Grant.jpg",
-        "name" : "Grant Fritz",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "GRANT FRITZ",
+        "college" : "Dietrich A&S",
+        "year" : "2026",
+        "major" : "Political Science and Economics",
+        "town" : "Kensington, MD"
     },
     {
         "face" : "images/athlete images 2024-2025/gravy.JPG",
-        "name" : "Grant Rost",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "GRANT ROST",
+        "college" : "Business Administration",
+        "year" : "2028",
+        "major" : "Finance and Accounting",
+        "town" : "Lancaster, PA"
     },
     {
-        "name" : "John MacFarland",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athelete images 2025-2026/johnny.jpg",
+        "name" : "JOHN MACFARLAND",
+        "college" : "Computing & Information",
+        "year" : "2027",
+        "major" : "Computer Science",
+        "town" : "Ambler, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Julian.jpg",
-        "name" : "Julian Reda",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "JULIAN REDA",
+        "college" : "Dietrich A&S",
+        "year" : "2028",
+        "major" : "Environmental Science",
+        "town" : "Middletown, NJ"
     },
     {
-        "face" : "images/athlete images 2024-2025/jake.JPG",
-        "name" : "Jake Fulton",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "face" : "images/athlete images 2025-2026/Jake.jpg",
+        "name" : "JAKE FULTON",
+        "college" : "Computing & Information",
+        "year" : "2027",
+        "major" : "Computer Science",
+        "town" : "Kent Island, MD"
     },
     {
         "face" : "images/athlete images 2025-2026/Nicky.jpg",
-        "name" : "Nick Sawicki",
-        "height" : "",
-        "college" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "NICK SAWICKI",
+        "college" : "Dietrich A&S",
+        "year" : "2028",
+        "major" : "Biology",
+        "town" : "Perkasie, PA"
     }
 ]

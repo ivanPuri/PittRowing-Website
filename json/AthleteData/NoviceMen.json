@@ -1,114 +1,114 @@
 [
     {
         "face" : "images/athlete images 2025-2026/Alex C.jpg", 
-        "name" : "Alexander Chow",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "ALEXANDER CHOW",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
         "face" : "images/athlete images 2025-2026/Agastya.jpg", 
-        "name" : "Agastya Nutapali",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "AGASTYA NUTAPALI",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Molecular Biology",
+        "town" : "Fairfax, Va"
     },
     {
         "face" : "images/athlete images 2025-2026/lil Alex M.jpg", 
-        "name" : "Alex Moore",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "ALEX MOORE",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/big Alex M.jpg", 
+        "name" : "ALEX MOORE",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Springfield, VA"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Alex Moore",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
-    },
-    {
-        "face" : "images/athlete images 2025-2026", 
-        "name" : "Aiden Naik",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "AIDEN NAIK",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Physics",
+        "town" : "Philadelphia, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Amedeo.jpg", 
-        "name" : "Amedeo Caruso",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "AMEDEO CARUSO",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Biology",
+        "town" : "Pittsburgh, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Bruno.jpg", 
-        "name" : "Bruno Obadic",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "BRUNO OBADIC",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Pittsburgh, PA"
     },
     {
         "face" : "images/athlete images 2025-2026/Evan.jpg", 
-        "name" : "Evan McGrogan",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "EVAN MCGROGAN",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Chemistry",
+        "town" : "Langhorne, PA"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Ian Rakov",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "IAN RAKOV",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
         "face" : "images/athlete images 2025-2026/Max.jpg", 
-        "name" : "Max Henceroth",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "MAX HENCEROTH",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Annapolis, MD"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Mikhail Bagrov",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "MISHA BAGROV",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Nick Denisco",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "NICK DENISCO",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Otis Koo",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "OTIS KOO",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     },
     {
         "face" : "images/athlete images 2025-2026", 
-        "name" : "Quincy Li",
-        "height" : "",
-        "year" : "",
-        "major" : "",
-        "town" : ""
+        "name" : "QUINCY LI",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Unknown",
+        "town" : "Unknown"
     }
 ]
