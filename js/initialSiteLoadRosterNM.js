@@ -56,7 +56,6 @@ function loadpage(jsonData){
 
 function updatePage(name, jsonData){
     const athleteName = document.getElementById('athlete-name');
-    const athleteHeight = document.getElementById("athlete-height")
     const athleteCollege = document.getElementById('athlete-college');
     const athleteYear = document.getElementById('athlete-year');
     const athleteMajor = document.getElementById('athlete-major');
@@ -67,9 +66,8 @@ function updatePage(name, jsonData){
     jsonData.forEach((dict) => {
         if(dict.name == name){
             athleteName.textContent = dict.name;
-            athleteHeight.textContent = "Height : " + dict.height;
             athleteCollege.textContent = "College : " + dict.college;
-            athleteYear.textContent = "Year : " + dict.year;
+            athleteYear.textContent = "Year Graduating : " + dict.year;
             athleteMajor.textContent = "Major : " + dict.major;
             athleteTown.textContent = "HomeTown : " + dict.town;
             athleteFace.src = (dict.face);
