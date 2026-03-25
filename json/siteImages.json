@@ -1,12 +1,30 @@
 [
     {
+        "carousel": "images/mendouble26.PNG",
+        "news": "Knecht Cup",
+        "date": "April 11-12, 2026",
+        "description": "Soon Pitt Rowing will take on their first Spring regatta at the Knecht Cup in Cherry Hill New Jersey!"
+    },
+    {
+        "carousel": "images/2doubles26.png",
+        "news": "Dad Vails Regatta",
+        "date": "May 7-9, 2026",
+        "description": "Pitt Rowing will travel to Cherry Hill New Jersey to race in the Dad Vails Regatta!"
+    },
+    {
+        "carousel": "images/ACRAs.png",
+        "news": "ACRA National Championship Regatta",
+        "date": "May 15-17, 2026",
+        "description": "In their final regatta of the Spring, Pitt Rowing will hit the water in Oak Ridge Tennessee for the ACRA National Championship Regatta."
+    },
+    {
         "carousel": "images/pdog26.PNG",
         "news": "Pitt Day of Giving",
         "date": "February 24th, 2026",
         "description": "This year for Pitt Day of Giving, we raised over $9000! Thank you so much to everyone who donated!"
     },
     {
-        "carousel": "images/Indoors26.PNG",
+        "carousel": "images/indoors26.PNG",
         "news": "Pittsburgh Indoors",
         "date": "February 7st, 2025",
         "description": "Pitt Crew did a great job erging at the USRowing Indoor National Championships!"
