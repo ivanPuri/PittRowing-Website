@@ -1,5 +1,17 @@
 [
     {
+        "carousel": "images/pdog26.PNG",
+        "news": "Pitt Day of Giving",
+        "date": "February 24th, 2026",
+        "description": "This year for Pitt Day of Giving, we raised over $9000! Thank you so much to everyone who donated!"
+    },
+    {
+        "carousel": "images/indoors.jpg",
+        "news": "Pittsburgh Indoors",
+        "date": "February 7st, 2025",
+        "description": "Pitt Crew did a great job erging at the USRowing Indoor National Championships!"
+    },
+    {
         "carousel": "images/Occ2025.png",
         "news": "Head of the Occoquan",
         "date": "November 1th, 2025",
@@ -16,17 +28,5 @@
         "news": "Head of the Ohio",
         "date": "October 4th & 5th, 2025",
         "description": "Pitt Crew takes on home regatta, Men’s Collegiate Novice 8+: 1st🥇, Women's Collegiate Novice 8+: 2nd🥈"
-    },
-    {
-        "carousel": "images/pdog.png",
-        "news": "Pitt Day of Giving",
-        "date": "February 25th, 2025",
-        "description": "Last year: Pitt Day of Giving is Pitt Crew's largest fundraiser of the year, $3,267,000 were raised in 2025"
-    },
-    {
-        "carousel": "images/indoors.jpg",
-        "news": "Pittsburgh Indoors",
-        "date": "February 1st, 2025",
-        "description": "Come back soon to see how Pitt Crew does at Indoors 2026 on February 7! Here's a flick from last year: (shown above)"
     }
 ]
