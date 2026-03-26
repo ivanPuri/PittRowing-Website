@@ -66,12 +66,9 @@ body{
 
 } 
 
-img[src*="images/smallestdoubles26.png"] {
-    position: relative !important;
+.carousel-item:has(img[src*="doubles26.PNG"]) {
     height: auto !important;
-    max-height: none !important;
-    width: 100% !important;
-    object-fit: unset !important;
+    min-height: 100% !important;
 }
 
 @media (max-width: 768px) { 
