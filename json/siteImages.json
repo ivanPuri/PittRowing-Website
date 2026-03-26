@@ -3,19 +3,19 @@
         "carousel": "images/mendouble26.PNG",
         "news": "Knecht Cup",
         "date": "April 11-12, 2026",
-        "description": "Soon Pitt Rowing will take on their first Spring regatta at the Knecht Cup in Cherry Hill New Jersey!"
+        "description": "Soon Pitt Rowing will take on their first Spring regatta at the Knecht Cup in Cherry Hill, New Jersey!"
     },
     {
-        "carousel": "images/2doubles26 - Copy.PNG",
+        "carousel": "images/2doubles26WithPadding.PNG",
         "news": "Dad Vails Regatta",
         "date": "May 7-9, 2026",
-        "description": "Pitt Rowing will travel to Cherry Hill New Jersey to race in the Dad Vails Regatta!"
+        "description": "Pitt Rowing will travel to Cherry Hill, New Jersey to race in the Dad Vails Regatta!"
     },
     {
         "carousel": "images/ACRAs.png",
         "news": "ACRA National Championship Regatta",
         "date": "May 15-17, 2026",
-        "description": "In their final regatta of the Spring, Pitt Rowing will hit the water in Oak Ridge Tennessee for the ACRA National Championship Regatta."
+        "description": "In their final regatta of the Spring, Pitt Rowing will hit the water in Oak Ridge, Tennessee for the ACRA National Championship Regatta."
     },
     {
         "carousel": "images/pdog26.PNG",
@@ -24,7 +24,7 @@
         "description": "This year for Pitt Day of Giving, we raised over $9000! Thank you so much to everyone who donated!"
     },
     {
-        "carousel": "images/indoors26.PNG",
+        "carousel": "images/indoors26.png",
         "news": "Pittsburgh Indoors:",
         "date": "February 7st, 2025",
         "description": "Pittsburgh Indoor Sprints: Open Four Person Relay: 2nd🥈 and 3rd🥉, Womens 2k: Alilie in 3rd🥉, Mens 2k: David in 3rd🥉, Womens Lightweight 2k: Anna in 1st🥇, Womens PR2 2k: Maya in 1st🥇"
