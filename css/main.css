@@ -66,6 +66,10 @@ body{
 
 }
 
+img[src*="images/doubles26.PNG"] {
+    object-position: center 30%;
+}
+
 @media (max-width: 768px) { 
     /* Styling the mobile dropdown */
     .navbar-collapse {
