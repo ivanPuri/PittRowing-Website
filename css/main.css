@@ -67,7 +67,8 @@ body{
 }
 
 img[src*="images/doubles26.PNG"] {
-    object-position: center 30%;
+    object-fit: contain;
+    object-position: center;
 }
 
 @media (max-width: 768px) { 
