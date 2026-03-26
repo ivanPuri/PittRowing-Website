@@ -68,8 +68,8 @@ body{
 
 img[src*="images/doubles26.PNG"] {
     width: 100%;
+    height: auto !important;
     object-fit: contain !important;
-    transform: rotate(90deg);
 }
 
 @media (max-width: 768px) { 
@@ -147,7 +147,7 @@ img[src*="images/doubles26.PNG"] {
 
 .top-stack{
     /* border: 2px solid red; */
-    height: auto !important;
+    height: 72%;
     width: 100%;
     position: relative;
 }
