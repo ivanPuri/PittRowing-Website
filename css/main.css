@@ -67,11 +67,11 @@ body{
 } 
 
 img[src*="images/smallestdoubles26.png"] {
+    position: relative !important;
     height: auto !important;
-    max-height: auto !important;
+    max-height: none !important;
     width: 100% !important;
-    object-fit: contain !important;
-    object-position: center !important;
+    object-fit: unset !important;
 }
 
 @media (max-width: 768px) { 
