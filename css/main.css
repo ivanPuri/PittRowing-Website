@@ -66,8 +66,7 @@ body{
 
 } 
 
-img[src*="images/doubles26.PNG"] {
-    width: 100%;
+img[src*="images/smalldoubles26.png"] {
     height: auto !important;
     object-fit: contain !important;
 }
