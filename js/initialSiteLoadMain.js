@@ -76,7 +76,9 @@ function fillPage(jsonData) {
         if (dict.carousel.includes("doubles26")) {
             img.style.height = 'auto';
             img.style.maxHeight = '55vh';
+            img.style.maxWidth = '100%';
             img.style.objectFit = 'contain';
+            img.style.margin = '0 auto';
         }
 
 
