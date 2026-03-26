@@ -14,10 +14,10 @@ container.appendChild(yearSeason);
 
 document.querySelector("#carousel").addEventListener('slide.bs.carousel', event => {
     // console.log('Next slide index in #carousel: ', event.to);
-    if(event.to === 0){
-        yearSeason.innerHTML = new Date().getFullYear();
-    }else{
+    if(event.to === 1){
         yearSeason.innerHTML = (new Date().getFullYear()) + 1;
+    }else{
+        yearSeason.innerHTML = new Date().getFullYear();
     }
 });
 
