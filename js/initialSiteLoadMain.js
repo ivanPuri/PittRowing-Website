@@ -128,6 +128,13 @@ function fillMobile(jsonData){
         img.classList.add('d-block', 'w-100', 'img-fluid');
         img.style.height = '100%';
         img.style.objectFit = 'cover'; 
+        if (dict.carousel.includes("doubles26")) {
+            img.style.height = 'auto';
+            img.style.maxHeight = '55vh';
+            img.style.maxWidth = '100%';
+            img.style.objectFit = 'contain';
+            img.style.margin = '0 auto';
+        }
 
         box.appendChild(descDateDiv);
         box.appendChild(descContentDiv);
