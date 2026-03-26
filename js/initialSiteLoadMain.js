@@ -73,6 +73,11 @@ function fillPage(jsonData) {
         img.classList.add('d-block', 'w-100', 'img-fluid');
         img.style.height = '100%';
         img.style.objectFit = 'cover'; // Scale image without distortion
+        if (dict.carousel.includes("smallestdoubles26")) {
+            img.style.height = 'auto';
+            img.style.maxHeight = '55vh';
+            img.style.objectFit = 'contain';
+        }
 
 
         // putting everything together
