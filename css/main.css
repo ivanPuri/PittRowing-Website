@@ -66,12 +66,11 @@ body{
 
 } 
 
-/*img[src*="images/doubles26.PNG"] {
+img[src*="images/doubles26.PNG"] {
     width: 100%;
-    height: auto !important;
     object-fit: contain !important;
     transform: rotate(90deg);
-}*/
+}
 
 @media (max-width: 768px) { 
     /* Styling the mobile dropdown */
