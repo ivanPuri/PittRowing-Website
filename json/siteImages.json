@@ -1,18 +1,18 @@
 [
     {
-        "carousel": "images/SchaferShot.jpg", 
+        "carousel": "images/SchaferShot.png", 
         "news": "University of Pittsburgh Rowing Club",
         "date": "",
-        "description": "The University of Pittsburgh Rowing Club will return in the fall. If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com"
+        "description": "The University of Pittsburgh Rowing Club will return in the fall! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com"
     },
     {
-        "carousel": "images/Knecht26.jpg",
+        "carousel": "images/Knecht26.png",
         "news": "Knecht Cup Regatta",
         "date": "April 11-12, 2026",
         "description": "Knecht Cup: Women’s Inclusion 2x: 1st🥇, Women’s Novice 8+: 2nd🥈, Women’s 2-: 3rd🥉"
     },
     {
-        "carousel": "images/Vails26.JPG",
+        "carousel": "images/Vails26.png",
         "news": "Dad Vails Regatta",
         "date": "May 7-9, 2026",
         "description": "Pitt Crew had many good races at the Dad Vails Regatta."
