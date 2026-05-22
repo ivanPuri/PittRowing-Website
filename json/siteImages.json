@@ -1,12 +1,12 @@
 [
     {
-        "carousel": "images/mendouble26.PNG",
+        "carousel": "images/Knecht26.jpg",
         "news": "Knecht Cup",
         "date": "April 11-12, 2026",
-        "description": "Soon Pitt Rowing will take on their first Spring regatta at the Knecht Cup in Cherry Hill, New Jersey!"
+        "description": "Women’s Inclusion 2x: 1st🥇, Women’s Novice 8+: 2nd🥈, Women’s 2-: 3rd🥉"
     },
     {
-        "carousel": "images/2026doubles.png",
+        "carousel": "images/",
         "news": "Dad Vails Regatta",
         "date": "May 7-9, 2026",
         "description": "Pitt Rowing will travel to Cherry Hill, New Jersey to race in the Dad Vails Regatta!"
@@ -32,7 +32,7 @@
     {
         "carousel": "images/Occ2025.png",
         "news": "Head of the Occoquan",
-        "date": "November 1th, 2025",
+        "date": "November 1st, 2025",
         "description": "Head of the Occoquan: Men's Collegiate Novice 4+: 1st🥇, Men's Collegiate Novice 8+: 1st🥇"
     },
     {

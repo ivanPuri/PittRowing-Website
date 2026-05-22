@@ -50,7 +50,7 @@ function fillPage(jsonData) {
         descDateDiv.textContent = dict.date;
         descDateDiv.style.fontSize = "1.25rem";
         descContentDiv.style.fontSize = "1.75rem";
-        descContentDiv.textContent = dict.description;
+        descContentDiv.innerHTML = dict.description;
         descDateDiv.classList.add("desc-date");
         descContentDiv.classList.add("desc-content");        
 
@@ -112,7 +112,7 @@ function fillMobile(jsonData){
         descDateDiv.textContent = dict.date; 
         descDateDiv.style.fontSize = "1.5rem";
 
-        descContentDiv.textContent = dict.description;
+        descContentDiv.innerHTML = dict.description;
         descContentDiv.style.fontSize = "1.75rem";
 
         descDateDiv.classList.add("desc-date", "text-center", "p-3");
