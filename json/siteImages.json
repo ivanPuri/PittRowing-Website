@@ -1,6 +1,6 @@
 [
     {
-        "Carousel": "images/SchaferShot.jpg", 
+        "carousel": "images/SchaferShot.jpg", 
         "news": "University of Pittsburgh Rowing Club",
         "date": "",
         "description": "The University of Pittsburgh Rowing Club will return in the fall. If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com"
