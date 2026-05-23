@@ -1,27 +1,33 @@
 [
     {
+        "carousel": "images/MayaHOTO.jpg",
+        "news": "Royal Canadian Henley Regatta",
+        "date": "August 8-9, 2026",
+        "description": "This August, Pitt rower Maya Rosenberger will be heading to Ontario to race at the Royal Canadian Henley Regatta after attending the US Rowing Paralympic Pathways Camp!"
+    },
+    {
         "carousel": "images/SchaferShot.png", 
-        "news": "University of Pittsburgh Rowing Club",
+        "news": "See you again soon!",
         "date": "",
-        "description": "The University of Pittsburgh Rowing Club will return in the fall! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com"
-    },
-    {
-        "carousel": "images/Knecht26.png",
-        "news": "Knecht Cup Regatta",
-        "date": "April 11-12, 2026",
-        "description": "Knecht Cup: Women’s Inclusion 2x: 1st🥇, Women’s Novice 8+: 2nd🥈, Women’s 2-: 3rd🥉"
-    },
-    {
-        "carousel": "images/Vails26.png",
-        "news": "Dad Vails Regatta",
-        "date": "May 7-9, 2026",
-        "description": "Pitt Crew had many good races at the Dad Vails Regatta."
+        "description": "The University of Pittsburgh Rowing Club will return in the fall! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com!"
     },
     {
         "carousel": "images/ACRAs26.jpg",
         "news": "ACRA National Championship Regatta",
         "date": "May 15-17, 2026",
         "description": "The Pitt Crew Mens 2x and Womens 4+ travelled to Oak Ridge, Tennessee to race at the ACRA National Championship Regatta."
+    },
+    {
+        "carousel": "images/Vails26.jpg",
+        "news": "Dad Vails Regatta",
+        "date": "May 7-9, 2026",
+        "description": "Pitt Crew had many good races at the Dad Vails Regatta!"
+    },
+    {
+        "carousel": "images/Knecht26.jpg",
+        "news": "Knecht Cup Regatta",
+        "date": "April 11-12, 2026",
+        "description": "Knecht Cup: Women’s Inclusion 2x: 1st🥇, Women’s Novice 8+: 2nd🥈, Women’s 2-: 3rd🥉"
     },
     {
         "carousel": "images/pdog26.PNG",
