@@ -1,94 +1,298 @@
-body{
-    background-color: rgb(255, 255, 240);
-    font-family: minerva;
+/* ============================================================
+   University of Pittsburgh Rowing Club — CONDITIONS
+   Same "Stillwater" system as the rest of the site. Self-contained:
+   shared chrome (masthead, nav, footer, tokens) plus a framed
+   container for the live river-conditions embed. No page JS.
+   ============================================================ */
+
+:root {
+    --navy:        #003594;
+    --navy-deep:   #001b45;
+    --navy-ink:    #0a1d3f;
+    --gold:        #ffb81c;
+    --gold-soft:   #ffce5c;
+    --copper:      #b07a33;
+    --copper-deep: #8f5f22;
+
+    --paper:       #eef2f5;
+    --paper-2:     #f6f8fa;
+    --card:        #ffffff;
+    --ink:         #16222f;
+    --steel:       #5a6b7a;
+
+    --hairline:    rgba(10, 29, 63, 0.10);
+    --hairline-2:  rgba(10, 29, 63, 0.16);
+    --shadow-sm:   0 1px 2px rgba(10,29,63,.06), 0 2px 6px rgba(10,29,63,.05);
+    --shadow-md:   0 14px 34px -16px rgba(10,29,63,.42), 0 4px 12px -8px rgba(10,29,63,.30);
+    --shadow-head: 0 6px 22px -10px rgba(0,27,69,.55);
+
+    --font-display: "Fraunces", "minerva", Georgia, "Times New Roman", serif;
+    --font-ui: "Libre Franklin", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+    --ease: cubic-bezier(.2,.7,.2,1);
 }
 
-.outerHeader{
-    z-index: 2;
+/* ---- Base ------------------------------------------------- */
+* { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+body {
+    background-color: var(--paper);
+    background-image:
+        radial-gradient(1200px 480px at 78% -8%, rgba(0,53,148,.06), transparent 60%),
+        radial-gradient(900px 420px at -6% 4%, rgba(176,122,51,.05), transparent 55%);
+    font-family: var(--font-ui);
+    color: var(--ink);
+    letter-spacing: .005em;
 }
+::selection { background: var(--gold); color: var(--navy-deep); }
 
 @font-face {
     font-family: minerva;
     src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+    font-display: swap;
 }
+a { text-decoration: none; }
 
-/*! --------- Stripes --------- */
+/* ============================================================
+   MASTHEAD (shared chrome)
+   ============================================================ */
+.outerHeader { z-index: 1030; box-shadow: var(--shadow-head); border-bottom: 2px solid var(--gold); }
 .blue-stripe {
-    /* border: 2px solid red; */
-    background-color: #003594;
-    /* margin-left: 6rem; */
-    width: 100vw;
-    height: 7.5vh;
+    background-color: var(--navy);
+    width: 100vw; height: 8vh; min-height: 56px;
+    position: relative; overflow: hidden;
+}
+.blue-stripe::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background:
+        linear-gradient(90deg, rgba(0,18,55,.55), transparent 22% 78%, rgba(0,18,55,.55)),
+        linear-gradient(180deg, transparent 55%, rgba(0,18,55,.45));
+}
+.pittLogo-container {
+    height: 100% !important;
+    padding-left: 3rem !important; padding-right: 3rem !important;
+    display: flex; justify-content: center; align-items: center;
+    position: relative; z-index: 1;
+}
+.pittLogo-container img { width: auto !important; max-height: 78%; object-fit: contain; filter: drop-shadow(0 2px 6px rgba(0,0,0,.45)); }
+.pitt-logo { padding-left: 15%; }
+
+.yellow-stripe {
+    background-color: var(--gold);
+    background-image: linear-gradient(180deg, #ffc740 0%, var(--gold) 58%, #f1a912 100%);
+    width: 100vw; height: 8.5vh; min-height: 58px;
+    display: flex; align-items: center;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.45), inset 0 -1px 0 rgba(143,95,34,.35);
+}
+.site-title { display: flex; align-items: center; justify-content: center; }
+.site-title h1 {
+    margin: 0; font-family: var(--font-display); font-optical-sizing: auto;
+    font-weight: 600; color: var(--navy-deep); line-height: 1.02;
+    letter-spacing: -0.01em; text-align: center;
+    font-size: clamp(1.35rem, 2.1vw + .55rem, 2.4rem);
 }
 
-.pittLogo-container{
-    height: 130%;
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
-    display: flex;
-    justify-content: center;
+.extra-stripe {
+    background-color: var(--paper-2);
+    background-image: linear-gradient(180deg, #ffffff, var(--paper-2));
+    height: auto; min-height: 56px; width: 100vw;
+    border-top: 1px solid rgba(255,255,255,.6);
+}
+.navbar { padding-top: .35rem; padding-bottom: .35rem; }
+.navbar-nav { align-items: center; gap: .15rem; }
+
+.nav-link {
+    position: relative; font-family: var(--font-ui);
+    font-weight: 600; font-size: .82rem; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--navy-deep) !important; padding: .55rem .35rem !important;
+    transition: color .2s var(--ease);
+}
+.nav-link::after {
+    content: ""; position: absolute; left: 50%; right: 50%; bottom: .28rem;
+    height: 2px; background: var(--gold); border-radius: 2px;
+    transition: left .25s var(--ease), right .25s var(--ease);
+}
+.nav-link:hover { color: var(--navy) !important; }
+.nav-link:hover::after, .nav-link.active::after { left: .35rem; right: .35rem; }
+.nav-link.active { color: var(--navy) !important; }
+.dropdown-toggle:hover { color: var(--navy) !important; }
+
+.nav-link:focus-visible, .dropdown-item:focus-visible {
+    outline: 2px solid var(--navy); outline-offset: 2px; border-radius: 4px;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: transparent;
+    border: 1px solid var(--hairline-2); border-radius: 12px; padding: .4rem;
+    box-shadow: var(--shadow-md); background: var(--card); margin-top: .4rem !important;
+}
+.dropdown-item {
+    font-family: var(--font-ui); font-weight: 500; font-size: .92rem;
+    color: var(--navy-deep); border-radius: 8px; padding: .5rem .75rem;
+    transition: background .15s var(--ease), color .15s var(--ease);
+}
+.dropdown-item:hover, .dropdown-item:focus { background: rgba(0,53,148,.07); color: var(--navy); }
+.dropdown-divider { border-top-color: var(--hairline-2); opacity: 1; margin: .35rem .5rem; }
+
+.navbar-nav .nav-link[href*="giving"],
+.navbar-nav .nav-link[href*="viewform"] {
+    border-radius: 999px; padding: .42rem 1.05rem !important;
+    letter-spacing: .07em; transition: all .2s var(--ease);
+}
+.navbar-nav .nav-link[href*="giving"]::after,
+.navbar-nav .nav-link[href*="viewform"]::after { display: none; }
+.navbar-nav .nav-link[href*="giving"] { border: 1.5px solid var(--navy); color: var(--navy) !important; }
+.navbar-nav .nav-link[href*="giving"]:hover { background: var(--navy); color: #fff !important; }
+.navbar-nav .nav-link[href*="viewform"] { background: var(--gold); color: var(--navy-deep) !important; box-shadow: 0 2px 0 var(--copper-deep); }
+.navbar-nav .nav-link[href*="viewform"]:hover { background: var(--gold-soft); transform: translateY(-1px); box-shadow: 0 4px 10px -3px rgba(176,122,51,.6); color: var(--navy-deep) !important; }
+
+.navbar-toggler { border: 1.5px solid var(--navy); border-radius: 10px; padding: .3rem .55rem; }
+.navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(0,53,148,.25); }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23003594' stroke-width='2.4' stroke-linecap='round' d='M4 8h22M4 15h22M4 22h22'/%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   CONDITIONS CONTENT
+   ============================================================ */
+.content-container {
+    height: auto;                       /* let the embed flow; no fixed-vh clipping */
+    padding-left: clamp(1rem, 3vw, 2.5rem) !important;
+    padding-right: clamp(1rem, 3vw, 2.5rem) !important;
+    margin-top: 2.25rem !important;
+}
+
+.conditions-head {
+    max-width: 1100px;
+    margin: 0 auto 1.5rem;
+    padding: 0 .25rem;
+}
+.conditions-eyebrow {
+    display: inline-flex;
     align-items: center;
+    gap: .5rem;
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: .72rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--copper);
+}
+.conditions-eyebrow::before {
+    content: "";
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #2fae6a;
+    box-shadow: 0 0 0 3px rgba(47,174,106,.2);
+}
+.conditions-title {
+    margin: .5rem 0 0;
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: var(--navy-deep);
+    line-height: 1.05;
+    font-size: clamp(1.9rem, 1.2rem + 2.4vw, 3rem);
+}
+.conditions-title::after {
+    content: "";
+    display: block;
+    width: 64px; height: 3px;
+    margin-top: .8rem;
+    background: var(--gold);
+    border-radius: 3px;
+}
+.conditions-sub {
+    margin: 1rem 0 0;
+    max-width: 60ch;
+    color: var(--steel);
+    font-size: clamp(.98rem, .9rem + .3vw, 1.12rem);
+    line-height: 1.55;
 }
 
-.pitt-logo{
-    padding-left: 15%;
+.conditions-frame {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--hairline);
+    border-top: 3px solid var(--gold);
+    border-radius: 14px;
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+.conditions-frame iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    background: var(--card);
 }
 
-.yellow-stripe{
-    /* border: 2px solid blue; */
-    /* background-color: #003594; */
-    background-color: #FFB81C;
-    width: 100vw;
-    height: 7.5vh;
-    display: flex;
-    align-content: center;
+.conditions-note {
+    max-width: 1100px;
+    margin: 1rem auto 0;
+    color: var(--steel);
+    font-size: .82rem;
+    line-height: 1.5;
 }
+.conditions-note a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
 
-.extra-stripe{
-    /* border: 2px solid orange; */
-
-    background-color: #FFF5E1; 
-    height: 6vh;
-    width: 100vw;
+/* ============================================================
+   FOOTER (shared chrome)
+   ============================================================ */
+.page-foot {
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    height: auto; min-height: 15vh;
+    border-top: 2px solid var(--gold);
+    margin-top: 3rem !important;
 }
-
-.site-title{
-    font-size: 2.5rem;
-    color: #003594;
+.page-foot footer { display: flex; flex-direction: column; align-items: center; }
+.page-foot footer::before {
+    content: "University of Pittsburgh Rowing Club";
+    font-family: var(--font-display); font-weight: 600; font-size: 1.05rem;
+    letter-spacing: .02em; color: rgba(255,255,255,.92); padding-top: 1.8rem; text-align: center;
 }
-
-.page-foot{
-    background-color: #003594;
-    height: 15vh;
-
+.page-foot footer .container { padding-top: 1.1rem !important; padding-bottom: 1.8rem !important; }
+.page-foot footer::after {
+    content: "Allegheny • Monongahela • Ohio";
+    font-family: var(--font-ui); font-weight: 600; font-size: .68rem;
+    letter-spacing: .22em; text-transform: uppercase; color: var(--gold); padding-bottom: 1.6rem;
 }
+.page-foot .btn-floating {
+    background: transparent !important;
+    border: 1.5px solid rgba(255,255,255,.55) !important;
+    color: #fff; width: 46px; height: 46px; border-radius: 50% !important;
+    display: inline-flex; align-items: center; justify-content: center;
+    box-shadow: none !important; transition: all .2s var(--ease);
+}
+.page-foot .btn-floating i { transition: color .2s var(--ease); }
+.page-foot .btn-floating:hover { background: var(--gold) !important; border-color: var(--gold) !important; transform: translateY(-3px); }
+.page-foot .btn-floating:hover i { color: var(--navy-deep); }
+.page-foot .btn-floating:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
-@media (max-width: 768px) { 
-    /* Styling the mobile dropdown */
+/* ============================================================
+   MOBILE
+   ============================================================ */
+@media (max-width: 768px) {
     .navbar-collapse {
-      background-color: #FFB81C; 
-      padding: 10px;
-      border-radius: 8px; 
+        background-color: var(--gold);
+        background-image: linear-gradient(180deg, #ffc740, var(--gold));
+        padding: .65rem; border-radius: 14px; box-shadow: var(--shadow-md); margin-top: .4rem;
     }
-  
-    .dropdown-menu {
-      background-color: #FFB81C; 
-      border-radius: 5px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);     
-    }
-  
-    .dropdown-menu .dropdown-item {
-      font-size: 18px;
-      padding: 10px 15px;
-    }
-  
+    .navbar-nav { gap: .1rem; text-align: center; }
+    .navbar-collapse .nav-link { color: var(--navy-deep) !important; padding: .7rem !important; }
+    .navbar-collapse .nav-link::after { display: none; }
+    .navbar-collapse .nav-link[href*="giving"], .navbar-collapse .nav-link[href*="viewform"] { display: inline-block; margin: .3rem auto 0; }
+    .navbar-collapse .nav-link[href*="giving"] { border-color: var(--navy-deep); color: var(--navy-deep) !important; }
+    .navbar-collapse .nav-link[href*="viewform"] { background: var(--navy); color: #fff !important; box-shadow: 0 2px 0 var(--navy-deep); }
+    .dropdown-menu { background-color: rgba(255,255,255,.92); border: none; border-radius: 10px; box-shadow: 0 6px 14px rgba(0,0,0,.18); margin: .25rem .5rem !important; }
+    .dropdown-menu .dropdown-item { font-size: 16px; padding: 10px 14px; color: var(--navy-deep); text-align: center; }
+    .navbar-nav .nav-item.d-none { display: none !important; }
 
-    .navbar-nav{
-        text-align: center;
-    }
+    .content-container { margin-top: 1.5rem !important; }
+}
 
-  }
-/*! --------- Page Content --------- */
-.content-container{
-    height: 74vh;
+/* ============================================================
+   MOTION PREFERENCES
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
 }
