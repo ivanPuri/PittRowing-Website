@@ -147,12 +147,49 @@ function fillMobile(jsonData){
 }
 
 
+// Function to handle news item clicks and update carousels
+function attachNewsClickListeners() {
+    const newsItems = document.querySelectorAll('.news-item');
+    
+    newsItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const itemId = item.getAttribute('data-id');
+            
+            // Update desktop carousels
+            updateCarousel('#carousel-inner', itemId);
+            updateCarousel('#desc-carousel-inner', itemId);
+            
+            // Update mobile carousels
+            updateCarousel('#carousel-mobile-inner', itemId);
+            updateCarousel('#desc-carousel-mobile-inner', itemId);
+            
+            // Highlight the clicked news item
+            newsItems.forEach(newsItem => newsItem.classList.remove('active'));
+            item.classList.add('active');
+        });
+    });
+}
+
+// Helper function to update carousel to a specific index
+function updateCarousel(carouselSelector, itemId) {
+    const carousel = document.querySelector(carouselSelector);
+    if (!carousel) return;
+    
+    const items = carousel.querySelectorAll('.carousel-item');
+    items.forEach(item => item.classList.remove('active'));
+    
+    if (items[itemId]) {
+        items[itemId].classList.add('active');
+    }
+}
+
 // .then is for the promise completion needed for ASYNC functions
 // this essentially the main function
 fetchData().then(jsonData => {
     console.log('Fetched and parsed data:', jsonData); 
     fillPage(jsonData); 
     fillMobile(jsonData);
+    attachNewsClickListeners();
 });
 
 

@@ -206,6 +206,11 @@ li:hover{
     background-color: #99caea;
 }
 
+.news-item.active {
+    background-color: #99caea;
+    border-left: 4px solid #003594;
+}
+
 .listDate-item{
     font-weight: 600;
     color: #B87333;
