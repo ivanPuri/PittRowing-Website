@@ -159,6 +159,11 @@ body{
     overflow: visible !important;
 }
 
+/* Disable carousel animation while keeping functionality */
+.carousel-item {
+    transition: none !important;
+}
+
 
 .bottom-stack{
     /* border: 2px solid rgb(18, 122, 56); */
