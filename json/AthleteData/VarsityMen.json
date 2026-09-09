@@ -1,45 +1,5 @@
 [
     {
-        "face" : "images/athlete images 2025-2026/Holden.jpg",
-        "name" : "HOLDEN GENT",
-        "college" : "Computing & Information",
-        "year" : "2026",
-        "major" : "Computer Science",
-        "town" : "Pittsburgh, PA"
-    },
-    {
-        "face" : "images/athlete images 2025-2026/Voon.jpg",
-        "name" : "IVAN PURI",
-        "college" : "Dietrich A&S",
-        "year" : "2027",
-        "major" : "Computational Biology",
-        "town" : "West Chester, PA"
-    },
-    {
-        "face" : "images/athlete images 2025-2026/Eesa.jpg",
-        "name" : "EESA NOAMAN",
-        "college" : "Dietrich A&S",
-        "year" : "2026",
-        "major" : "Biochemistry",
-        "town" : "Pittsburgh, PA"
-    },
-    {
-        "face" : "images/athlete images 2025-2026/Matt.jpg",
-        "name" : "MATT HADDAD",
-        "college" : "Swanson",
-        "year" : "2026",
-        "major" : "Pharmacy",
-        "town" : "Ho-Ho-kus, NJ"
-    },
-    {
-        "face" : "images/athlete images 2025-2026/Ben R.jpg",
-        "name" : "BEN RICHLIN",
-        "college" : "Dietrich A&S",
-        "year" : "2028",
-        "major" : "Neuroscience",
-        "town" : "Doylestown, PA"
-    },
-    {
         "face" : "images/athlete images 2025-2026/David.jpg",
         "name" : "DAVID HACKNEY",
         "college" : "Swanson",
@@ -48,28 +8,12 @@
         "town" : "Cleaveland, Ohio"
     },
     {
-        "face" : "images/athlete images 2025-2026/Grant.jpg",
-        "name" : "GRANT FRITZ",
-        "college" : "Dietrich A&S",
-        "year" : "2026",
-        "major" : "Political Science and Economics",
-        "town" : "Kensington, MD"
-    },
-    {
-        "face" : "images/athlete images 2024-2025/gravy.JPG",
-        "name" : "GRANT ROST",
-        "college" : "Business Administration",
-        "year" : "2028",
-        "major" : "Finance and Accounting",
-        "town" : "Lancaster, PA"
-    },
-    {
-        "face" : "images/athelete images 2025-2026/johnny.jpg",
-        "name" : "JOHN MACFARLAND",
-        "college" : "Computing & Information",
-        "year" : "2027",
-        "major" : "Computer Science",
-        "town" : "Ambler, PA"
+        "face" : "images/athlete images 2025-2026/Placeholder.JPG",
+        "name" : "IAN SUTHERLAND",
+        "college" : "Unkown",
+        "year" : "Unkown",
+        "major" : "Unkown",
+        "town" : "Unkown"
     },
     {
         "face" : "images/athlete images 2025-2026/Julian.jpg",
@@ -94,5 +38,61 @@
         "year" : "2028",
         "major" : "Biology",
         "town" : "Perkasie, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/lil Alex M.jpg", 
+        "name" : "ALEX MOORE",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "AIDEN NAIK",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Physics",
+        "town" : "Philadelphia, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Amedeo.jpg", 
+        "name" : "AMEDEO CARUSO",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Biology",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Bruno.jpg", 
+        "name" : "BRUNO OBADIC",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Pittsburgh, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Evan.jpg", 
+        "name" : "EVAN MCGROGAN",
+        "college" : "Dietrich A&S",
+        "year" : "2029",
+        "major" : "Chemistry",
+        "town" : "Langhorne, PA"
+    },
+    {
+        "face" : "images/athlete images 2025-2026/Max.jpg", 
+        "name" : "MAX HENCEROTH",
+        "college" : "Swanson",
+        "year" : "2029",
+        "major" : "Engineering",
+        "town" : "Annapolis, MD"
+    },
+    {
+        "face" : "images/athlete images 2025-2026", 
+        "name" : "QUINCY LI",
+        "college" : "Unknown",
+        "year" : "2029",
+        "major" : "Biology",
+        "town" : "Unknown"
     }
 ]
