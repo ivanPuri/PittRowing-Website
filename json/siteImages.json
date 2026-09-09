@@ -1,15 +1,21 @@
 [
     {
+        "carousel": "images/SchaferShot.png", 
+        "news": "Wanna Join?",
+        "date": "",
+        "description": "The University of Pittsburgh Rowing Club is back! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com!"
+    },
+    {
+        "carousel" : "images/skyline6.avif",
+        "news" : "More Races Coming Soon!",
+        "date" : "October 4-5, 16-18, 24-25, 31-November 1 2026",
+        "description" : "Upcoming races: Head of the Ohio in Pittsburgh PA 10/4-10/5, Head of the Charles in Boston MA 10/16-10/18, Head of the Schuylkill in Philadelphia PA 10/24-10/25, and the Head of the Occoquan in Fairfax VA 10/31-11/1"
+    },
+    {
         "carousel": "images/MayaHOTO.jpg",
         "news": "Royal Canadian Henley Regatta",
         "date": "August 8-9, 2026",
-        "description": "This August, Pitt rower Maya Rosenberger will be heading to Ontario to race at the Royal Canadian Henley Regatta after attending the US Rowing Paralympic Pathways Camp!"
-    },
-    {
-        "carousel": "images/SchaferShot.png", 
-        "news": "See you again soon!",
-        "date": "",
-        "description": "The University of Pittsburgh Rowing Club will return in the fall! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com!"
+        "description": "This past August, Pitt rower Maya Rosenberger headed to Ontario to race at the Royal Canadian Henley Regatta after attending the US Rowing Paralympic Pathways Camp!"
     },
     {
         "carousel": "images/ACRAs26.jpg",

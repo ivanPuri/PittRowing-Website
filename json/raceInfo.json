@@ -3,40 +3,40 @@
         "fall": [
                 {
                     "race":"HEAD OF THE OHIO",
-                    "date": "PITTSBURGH, PA · OCTOBER 2-3"
+                    "date": "PITTSBURGH, PA · OCTOBER 4-5, 2026"
                 },
                 {
                     "race":"HEAD OF THE CHARLES",
-                    "date": "BOSTON, MA · OCTOBER 21-23"
+                    "date": "BOSTON, MA · OCTOBER 16-18, 2026"
                 },
                 {
                     "race":"HEAD OF THE SCHUYLKILL",
-                    "date": "PHILADELPHIA, PA · OCTOBER 29-30"
+                    "date": "PHILADELPHIA, PA · OCTOBER 24-25, 2026"
                 },
                 {
                     "race":"HEAD OF THE OCCOQUAN",
-                    "date": "FAIRFAX, VA · NOVEMBER 5"
+                    "date": "FAIRFAX, VA · OCTOBER 31 - NOVEMBER 1, 2026"
                 }
         ],
 
 
         "winter":{
             "race": "PITTSBURGH INDOOR SPRINTS",
-            "date": "PITTSBURGH, PA · JANUARY 29"
+            "date": "PITTSBURGH, PA · EARLY FEBRUARY, 2027"
         },
 
         "spring":[
             {
                 "race":"KNECHT CUP",
-                "date": "CHERRY HILL, NJ · APRIL 12-13"
+                "date": "CHERRY HILL, NJ · APRIL 10-11, 2027"
             },
             {
                 "race":"DAD VAILS REGATTA",
-                "date": "CHERRY HILL, NJ · MAY 9-10"
+                "date": "CHERRY HILL, NJ · MAY 7-8, 2027"
             },
             {
                 "race":"ACRAS",
-                "date": "OAK RIDGE, TN · MAY 16-18"
+                "date": "OAK RIDGE, TN · MAY 21-23, 2027"
             }
         ]
         
