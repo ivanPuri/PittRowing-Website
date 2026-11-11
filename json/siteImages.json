@@ -3,13 +3,31 @@
         "carousel": "images/SchaferShot.png", 
         "news": "Wanna Join?",
         "date": "",
-        "description": "The University of Pittsburgh Rowing Club is back! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com!"
+        "description": "The University of Pittsburgh Rowing Club is always looking for new rowers and coxswains! If you have any interest in joining, please fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSdv7Sf3PHxgKAmlBK2II34ls1b-lUi5eWec-wyermpxqoR-Qw/viewform' target='_blank'>this form</a> or send an email to recruiting@pittrowing.com!"
+    },
+    {
+        "carousel": "images/HOTOcc26.JPG",
+        "news": "Head of the Occoquan",
+        "date": "October 31, 2026",
+        "description": "Head of the Occoquan: See the Press Release for our race <a href='https://drive.google.com/file/d/1gNMy4rUEtptHLopNn_sfssv5FwdeeWYt/view?usp=sharing' target=_blank'>here</a>."
+    },
+    {
+        "carousel": "images/HOSR26.JPG",
+        "news": "Head of the Schuylkill",
+        "date": "October 24, 2026",
+        "description": "HOSR: See the Press Release for our race <a href='https://drive.google.com/file/d/1GwgZSNT9jAYsb48h6zP3YBrQKxQqQ-Na/view?usp=sharing' target='_blank'>here</a>."
+    },
+    {
+        "carousel": "images/HOTO26.jpg",
+        "news": "Head of the Ohio",
+        "date": "October 3-4",
+        "description": "Pitt Crew takes on home regatta! Boats entered were: Para Inclusion 2x, Varsity Women: 1V, 2V, and Lightweight 4+, Varsity Men: 8+, 2X, and 1V and 2V 4+, Novice Women 4+, and Mixed Novice 8+."
     },
     {
         "carousel" : "images/skyline6.avif",
         "news" : "More Races Coming Soon!",
         "date" : "October 4-5, 16-18, 24-25, 31-November 1 2026",
-        "description" : "Upcoming races: Head of the Ohio in Pittsburgh PA 10/4-10/5, Head of the Charles in Boston MA 10/16-10/18, Head of the Schuylkill in Philadelphia PA 10/24-10/25, and the Head of the Occoquan in Fairfax VA 10/31-11/1"
+        "description" : "Upcoming 2027 races: Pittsburgh Indoor Sprints: February 6, Knecht Cup: April 10-11, Dad Vail Regatta: May 7-8, ACRA National Championship Regatta: May 21-23 "
     },
     {
         "carousel": "images/MayaHOTO.jpg",
@@ -46,23 +64,5 @@
         "news": "Pittsburgh Indoor Sprints",
         "date": "February 7th, 2026",
         "description": "Pittsburgh Indoor Sprints: Open Four Person Relay: 2nd🥈 and 3rd🥉, Womens 2k: Alilie in 3rd🥉, Mens 2k: David in 3rd🥉, Womens Lightweight 2k: Anna in 1st🥇, Womens PR2 2k: Maya in 1st🥇"
-    },
-    {
-        "carousel": "images/Occ2025.png",
-        "news": "Head of the Occoquan",
-        "date": "November 1st, 2025",
-        "description": "Head of the Occoquan: Men's Collegiate Novice 4+: 1st🥇, Men's Collegiate Novice 8+: 1st🥇"
-    },
-    {
-        "carousel": "images/schuylkill2025.png",
-        "news": "Head of the Schuylkill",
-        "date": "October 25th, 2025",
-        "description": "HOSR: Mens Collegiate Double: 2nd🥈, PARA Inclusion PR2 2x: 1st🥇, Women's Collegiate 2x (Open) 5th"
-    },
-    {
-        "carousel": "images/HOTO novi-men2025.PNG",
-        "news": "Head of the Ohio",
-        "date": "October 4th & 5th, 2025",
-        "description": "Pitt Crew takes on home regatta, Men’s Collegiate Novice 8+: 1st🥇, Women's Collegiate Novice 8+: 2nd🥈"
     }
 ]
