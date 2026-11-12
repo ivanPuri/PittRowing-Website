@@ -9,7 +9,7 @@
         "carousel": "images/HOTOcc26.JPG",
         "news": "Head of the Occoquan",
         "date": "October 31, 2026",
-        "description": "Head of the Occoquan: See the Press Release for our race <a href='https://drive.google.com/file/d/1gNMy4rUEtptHLopNn_sfssv5FwdeeWYt/view?usp=sharing' target=_blank'>here</a>."
+        "description": "Head of the Occoquan: See the Press Release for our race <a href='https://drive.google.com/file/d/1gNMy4rUEtptHLopNn_sfssv5FwdeeWYt/view?usp=sharing' target='_blank'>here</a>."
     },
     {
         "carousel": "images/HOSR26.JPG",
@@ -26,7 +26,7 @@
     {
         "carousel" : "images/skyline6.avif",
         "news" : "More Races Coming Soon!",
-        "date" : "October 4-5, 16-18, 24-25, 31-November 1 2026",
+        "date" : "",
         "description" : "Upcoming 2027 races: Pittsburgh Indoor Sprints: February 6, Knecht Cup: April 10-11, Dad Vail Regatta: May 7-8, ACRA National Championship Regatta: May 21-23 "
     },
     {
