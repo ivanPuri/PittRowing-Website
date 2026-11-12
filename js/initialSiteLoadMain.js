@@ -73,7 +73,7 @@ function fillPage(jsonData) {
         img.classList.add('d-block', 'w-100', 'img-fluid');
         img.style.height = '100%';
         img.style.objectFit = 'cover'; // Scale image without distortion
-        if (dict.carousel.includes("doubles26")) {
+        if (dict.carousel.includes("HOTOcc26")) {
             img.style.height = 'auto';
             img.style.maxHeight = '55vh';
             img.style.maxWidth = '100%';
@@ -128,7 +128,7 @@ function fillMobile(jsonData){
         img.classList.add('d-block', 'w-100', 'img-fluid');
         img.style.height = '100%';
         img.style.objectFit = 'cover'; 
-        if (dict.carousel.includes("doubles26")) {
+        if (dict.carousel.includes("doubles26") || dict.carousel.includes("HOTOcc26")) {
             img.style.height = 'auto';
             img.style.maxHeight = '55vh';
             img.style.maxWidth = '100%';
@@ -191,7 +191,6 @@ fetchData().then(jsonData => {
     fillMobile(jsonData);
     attachNewsClickListeners();
 });
-
 
 
 

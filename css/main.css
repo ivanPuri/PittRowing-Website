@@ -322,10 +322,13 @@ a { text-decoration: none; }
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
     margin-top: .9rem;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 #desc-carousel, #desc-carousel-inner { height: 100%; }
 #desc-carousel-inner .carousel-item {
+    height: auto;
+    min-height: 100%;
     padding: 1rem 1.35rem;
     display: none;
 }
@@ -533,13 +536,17 @@ li { cursor: pointer; }
         border-top: 3px solid var(--gold);
         border-radius: 12px;
         box-shadow: var(--shadow-sm);
-        overflow: hidden;
+        overflow: visible;
         position: relative;
     }
     #desc-carousel-mobile-inner {
         background: transparent;
+        height: auto;
     }
-    #desc-carousel-mobile-inner .carousel-item { display: none; }
+    #desc-carousel-mobile-inner .carousel-item {
+        height: auto;
+        display: none;
+    }
     #desc-carousel-mobile-inner .carousel-item.active { display: block; }
     #desc-carousel-mobile .desc-date {
         color: var(--copper);
